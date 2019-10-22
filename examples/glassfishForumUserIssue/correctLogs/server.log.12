@@ -1,0 +1,148 @@
+[#|2008-04-23T11:54:44.833+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=10;_ThreadName=main;|Starting Sun Java System Application Server 9.1_01 (build b09d-fcs) ...|#]
+
+[#|2008-04-23T11:54:45.194+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=11;_ThreadName=pool-1-thread-2;com.sun.enterprise.interceptor.DynamicInterceptor;|MBeanServer started: com.sun.enterprise.interceptor.DynamicInterceptor|#]
+
+[#|2008-04-23T11:54:45.833+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=10;_ThreadName=main;|CORE5098: AS Socket Service Initialization has been completed.|#]
+
+[#|2008-04-23T11:54:45.852+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=10;_ThreadName=main;Java HotSpot(TM) Client VM;1.6.0_04;Sun Microsystems Inc.;|CORE5076: Using [Java HotSpot(TM) Client VM, Version 1.6.0_04] from [Sun Microsystems Inc.]|#]
+
+[#|2008-04-23T11:54:45.894+0200|INFO|sun-appserver9.1|javax.enterprise.system.core.security|_ThreadID=10;_ThreadName=main;|SEC1002: Security Manager is OFF.|#]
+
+[#|2008-04-23T11:54:46.940+0200|INFO|sun-appserver9.1|javax.enterprise.system.stream.out|_ThreadID=10;_ThreadName=main;|/home/fabrizio/glassfish-v2ur1/domains/domain1/config/.__com_sun_appserv_pid|#]
+
+[#|2008-04-23T11:54:47.243+0200|INFO|sun-appserver9.1|javax.enterprise.system.tools.admin|_ThreadID=10;_ThreadName=main;|ADM0001:SunoneInterceptor is now enabled|#]
+
+[#|2008-04-23T11:54:47.397+0200|INFO|sun-appserver9.1|javax.enterprise.system.core.security|_ThreadID=10;_ThreadName=main;com.sun.enterprise.security.provider.PolicyWrapper;|SEC1143: Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.|#]
+
+[#|2008-04-23T11:54:48.895+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=10;_ThreadName=main;server;|WEB0114: SSO is disabled in virtual server [server]|#]
+
+[#|2008-04-23T11:54:48.909+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=10;_ThreadName=main;__asadmin;|WEB0114: SSO is disabled in virtual server [__asadmin]|#]
+
+[#|2008-04-23T11:54:49.542+0200|INFO|sun-appserver9.1|javax.enterprise.system.tools.admin|_ThreadID=10;_ThreadName=main;|ADM1079: Initialization of AMX MBeans started|#]
+
+[#|2008-04-23T11:54:50.050+0200|INFO|sun-appserver9.1|javax.enterprise.system.tools.admin|_ThreadID=12;_ThreadName=Thread-16;service:jmx:rmi:///jndi/rmi://laptop:8686/jmxrmi;|ADM1504: Here is the JMXServiceURL for the Standard JMXConnectorServer: [service:jmx:rmi:///jndi/rmi://laptop:8686/jmxrmi].  This is where the remote administrative clients should connect using the standard JMX connectors|#]
+
+[#|2008-04-23T11:54:50.051+0200|INFO|sun-appserver9.1|javax.enterprise.system.tools.admin|_ThreadID=12;_ThreadName=Thread-16;true;|ADM1506: Status of Standard JMX Connector: Active = [true]|#]
+
+[#|2008-04-23T11:54:51.259+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=10;_ThreadName=main;|WEB0302: Starting Sun-Java-System/Application-Server.|#]
+
+[#|2008-04-23T11:54:51.285+0200|INFO|sun-appserver9.1|com.sun.jbi.framework|_ThreadID=13;_ThreadName=pool-1-thread-5;|JBIFW0010: JBI framework ready to accept requests.|#]
+
+[#|2008-04-23T11:54:51.599+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=10;_ThreadName=main;8080;|WEB0712: Starting Sun-Java-System/Application-Server HTTP/1.1 on 8080|#]
+
+[#|2008-04-23T11:54:51.667+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=10;_ThreadName=main;8181;|WEB0712: Starting Sun-Java-System/Application-Server HTTP/1.1 on 8181|#]
+
+[#|2008-04-23T11:54:51.674+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=10;_ThreadName=main;4848;|WEB0712: Starting Sun-Java-System/Application-Server HTTP/1.1 on 4848|#]
+
+[#|2008-04-23T11:54:52.182+0200|SEVERE|sun-appserver9.1|org.apache.catalina.session.ManagerBase|_ThreadID=14;_ThreadName=pool-1-thread-7;_RequestID=98341cc0-613c-48a3-b93b-d6dab48d3c1d;|PWC2773: Exception loading sessions from persistent storage
+java.lang.ClassCastException: cannot assign instance of java.lang.String to field de.lotk.yawebmail.bean.SessionContainerBean.sortierComparator of type de.lotk.yawebmail.business.ReversibleComparator in instance of de.lotk.yawebmail.bean.SessionContainerBean
+	at java.io.ObjectStreamClass$FieldReflector.setObjFieldValues(ObjectStreamClass.java:2032)
+	at java.io.ObjectStreamClass.setObjFieldValues(ObjectStreamClass.java:1212)
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1953)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1871)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at org.apache.catalina.session.StandardSession.readRemainingObject(StandardSession.java:1822)
+	at org.apache.catalina.session.StandardSession.readObject(StandardSession.java:1756)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:974)
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1849)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1753)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1329)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:351)
+	at org.apache.catalina.session.StandardSession.deserialize(StandardSession.java:1087)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:455)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:372)
+	at org.apache.catalina.session.StandardManager.start(StandardManager.java:764)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:5130)
+	at com.sun.enterprise.web.WebModule.start(WebModule.java:326)
+	at com.sun.enterprise.web.LifecycleStarter.doRun(LifecycleStarter.java:58)
+	at com.sun.appserv.management.util.misc.RunnableBase.runSync(RunnableBase.java:304)
+	at com.sun.appserv.management.util.misc.RunnableBase.run(RunnableBase.java:341)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:885)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:907)
+	at java.lang.Thread.run(Thread.java:619)
+|#]
+
+[#|2008-04-23T11:54:52.473+0200|INFO|sun-appserver9.1|javax.enterprise.resource.webcontainer.jsf.config|_ThreadID=14;_ThreadName=pool-1-thread-7;/yawebmail;|Initializing Sun's JavaServer Faces implementation (1.2_04-b20-p03) for context '/yawebmail'|#]
+
+[#|2008-04-23T11:54:52.884+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.ejb|_ThreadID=15;_ThreadName=pool-1-thread-9;|EJBSCLookup:: sc.getEjbContainerAvailabilityEnabledFromConfig() ==> false|#]
+
+[#|2008-04-23T11:54:54.144+0200|INFO|sun-appserver9.1|javax.enterprise.system.core.transaction|_ThreadID=15;_ThreadName=pool-1-thread-9;3700;|JTS5014: Recoverable JTS instance, serverId = [3700]|#]
+
+[#|2008-04-23T11:54:54.477+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=15;_ThreadName=pool-1-thread-9;|About to load the system app: MEjbApp|#]
+
+[#|2008-04-23T11:54:54.813+0200|INFO|sun-appserver9.1|javax.enterprise.resource.corba|_ThreadID=15;_ThreadName=pool-1-thread-9;|POARemoteRefFactory checking if SFSBVersionPolicy need to be added|#]
+
+[#|2008-04-23T11:54:54.814+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.ejb|_ThreadID=15;_ThreadName=pool-1-thread-9;|EJBSCLookup:: sc.getEjbContainerAvailabilityEnabledFromConfig() ==> false|#]
+
+[#|2008-04-23T11:54:54.814+0200|INFO|sun-appserver9.1|javax.enterprise.resource.corba|_ThreadID=15;_ThreadName=pool-1-thread-9;|POARemoteRefFactory addSFSBVersionPolicy? false|#]
+
+[#|2008-04-23T11:54:54.817+0200|INFO|sun-appserver9.1|javax.enterprise.resource.corba|_ThreadID=15;_ThreadName=pool-1-thread-9;|POARemoteRefFactory checking if SFSBVersionPolicy need to be added|#]
+
+[#|2008-04-23T11:54:54.817+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.ejb|_ThreadID=15;_ThreadName=pool-1-thread-9;|EJBSCLookup:: sc.getEjbContainerAvailabilityEnabledFromConfig() ==> false|#]
+
+[#|2008-04-23T11:54:54.818+0200|INFO|sun-appserver9.1|javax.enterprise.resource.corba|_ThreadID=15;_ThreadName=pool-1-thread-9;|POARemoteRefFactory addSFSBVersionPolicy? false|#]
+
+[#|2008-04-23T11:54:54.992+0200|INFO|sun-appserver9.1|javax.enterprise.system.core.classloading|_ThreadID=15;_ThreadName=pool-1-thread-9;MEjbApp;|LDR5010: All ejb(s) of [MEjbApp] loaded successfully!|#]
+
+[#|2008-04-23T11:54:54.993+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=15;_ThreadName=pool-1-thread-9;|About to load the system app: __ejb_container_timer_app|#]
+
+[#|2008-04-23T11:54:55.719+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.ejb|_ThreadID=15;_ThreadName=pool-1-thread-9;jdbc/__TimerPool;|EJB5109:EJB Timer Service started successfully for datasource [jdbc/__TimerPool]|#]
+
+[#|2008-04-23T11:54:55.719+0200|INFO|sun-appserver9.1|javax.enterprise.system.core.classloading|_ThreadID=15;_ThreadName=pool-1-thread-9;__ejb_container_timer_app;|LDR5010: All ejb(s) of [__ejb_container_timer_app] loaded successfully!|#]
+
+[#|2008-04-23T11:54:55.921+0200|INFO|sun-appserver9.1|javax.enterprise.system.core.naming|_ThreadID=15;_ThreadName=pool-1-thread-9;java:comp/env/com.sun.javaee.blueprints.petstore.model.CatalogFacade/emf;|naming.bind|#]
+
+[#|2008-04-23T11:54:56.692+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=16;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|WEB0303: Stopping Sun-Java-System/Application-Server.|#]
+
+[#|2008-04-23T11:54:56.765+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=16;_ThreadName=RMI TCP Connection(6)-127.0.0.1;8080;|WEB0713: Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8080|#]
+
+[#|2008-04-23T11:54:56.793+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=16;_ThreadName=RMI TCP Connection(6)-127.0.0.1;8181;|WEB0713: Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8181|#]
+
+[#|2008-04-23T11:54:56.964+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=16;_ThreadName=RMI TCP Connection(6)-127.0.0.1;4848;|WEB0713: Stopping Sun-Java-System/Application-Server HTTP/1.1 on 4848|#]
+
+[#|2008-04-23T11:54:57.133+0200|WARNING|sun-appserver9.1|javax.enterprise.system.stream.err|_ThreadID=17;_ThreadName=pool-1-thread-4;_RequestID=16c795cb-e54a-4223-b8b7-7d781c2a124e;|log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).|#]
+
+[#|2008-04-23T11:54:57.137+0200|WARNING|sun-appserver9.1|javax.enterprise.system.stream.err|_ThreadID=17;_ThreadName=pool-1-thread-4;_RequestID=16c795cb-e54a-4223-b8b7-7d781c2a124e;|
+log4j:WARN Please initialize the log4j system properly.|#]
+
+[#|2008-04-23T11:54:57.146+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=17;_ThreadName=pool-1-thread-4;|PWC1412: WebModule[/subsonic] ServletContext.log():Loading Spring root WebApplicationContext|#]
+
+[#|2008-04-23T11:54:57.864+0200|INFO|sun-appserver9.1|javax.enterprise.resource.webcontainer.jsf.config|_ThreadID=15;_ThreadName=pool-1-thread-9;/petstore;|Initializing Sun's JavaServer Faces implementation (1.2_04-b20-p03) for context '/petstore'|#]
+
+[#|2008-04-23T11:54:59.398+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=17;_ThreadName=pool-1-thread-4;|PWC1412: WebModule[/subsonic] ServletContext.log():Loading WebApplicationContext for Spring FrameworkServlet 'subsonic'|#]
+
+[#|2008-04-23T11:55:00.166+0200|INFO|sun-appserver9.1|javax.enterprise.system.core.selfmanagement|_ThreadID=10;_ThreadName=main;|SMGT0007: Self Management Rules service is enabled|#]
+
+[#|2008-04-23T11:55:00.250+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=10;_ThreadName=main;|Application server startup complete.|#]
+
+[#|2008-04-23T11:55:00.342+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=16;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|PWC1412: WebModule[/subsonic] ServletContext.log():Closing WebApplicationContext of Spring FrameworkServlet 'subsonic'|#]
+
+[#|2008-04-23T11:55:00.354+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=16;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|PWC1412: WebModule[/subsonic] ServletContext.log():Closing Spring root WebApplicationContext|#]
+
+[#|2008-04-23T11:55:01.400+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=16;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|CORE5051: Shutting down all J2EE applications ...|#]
+
+[#|2008-04-23T11:55:01.403+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.ejb|_ThreadID=16;_ThreadName=RMI TCP Connection(6)-127.0.0.1;2008/04/23 11:55:01;|EJB5122:EJB Timer Service shutdown at [2008/04/23 11:55:01]|#]
+
+[#|2008-04-23T11:55:01.403+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=16;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|CORE 5060 :  Stopping all J2EE Connector 1.5 Compliant resource adapters ...|#]
+
+[#|2008-04-23T11:55:01.407+0200|INFO|sun-appserver9.1|javax.enterprise.resource.resourceadapter|_ThreadID=16;_ThreadName=RMI TCP Connection(6)-127.0.0.1;__ds;|RAR7094: __ds shutdown successful.|#]
+
+[#|2008-04-23T11:55:01.407+0200|INFO|sun-appserver9.1|javax.enterprise.resource.resourceadapter|_ThreadID=16;_ThreadName=RMI TCP Connection(6)-127.0.0.1;__xa;|RAR7094: __xa shutdown successful.|#]
+
+[#|2008-04-23T11:55:01.407+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=16;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|CORE 5061 : Resource adapters Stop() Complete|#]
+
+[#|2008-04-23T11:55:01.408+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=16;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|CORE5052: Application shutdown complete.|#]
+
+[#|2008-04-23T11:55:01.429+0200|INFO|sun-appserver9.1|javax.enterprise.system.tools.deployment|_ThreadID=16;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|[AutoDeploy] Disabling AutoDeployment service.|#]
+
+[#|2008-04-23T11:55:01.660+0200|INFO|sun-appserver9.1|com.sun.jbi.framework|_ThreadID=16;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|JBIFW0042: JBI framework termination complete.|#]
+

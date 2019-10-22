@@ -1,0 +1,6 @@
+Starting Sun Java System Application Server 9.1_01 build b09d-fcs ... : 1
+MBeanServer started com.sun.enterprise.interceptor.DynamicInterceptor : 2
+CORE5098 AS Socket Service Initialization has been completed. : 3
+Using Java : 4
+Application server startup complete. : 20
+ \n|\n : -1

@@ -1,0 +1,209 @@
+Starting Sun Java System Application Server 9.1_01 build b09d-fcs ... : 1
+MBeanServer started com.sun.enterprise.interceptor.DynamicInterceptor : 2
+CORE5098 AS Socket Service Initialization has been completed. : 3
+Using Java : 4
+About to load the system app MEjbApp : 21
+About to load the system app __ejb_container_timer_app : 29
+Application server startup complete. : 35
+CORE5051 Shutting down all J2EE applications ... : 57
+CORE 5060 Stopping all J2EE Connector 1.5 Compliant resource adapters ... : 59
+CORE 5061 Resource adapters Stop Complete : 62
+CORE5052 Application shutdown complete. : 63
+ \n|\n : 66
+Starting Sun Java System Application Server 9.1_01 build b09d-fcs ... : 67
+MBeanServer started com.sun.enterprise.interceptor.DynamicInterceptor : 68
+CORE5098 AS Socket Service Initialization has been completed. : 69
+Using Java : 70
+About to load the system app MEjbApp : 87
+About to load the system app __ejb_container_timer_app : 95
+Application server startup complete. : 101
+CORE5051 Shutting down all J2EE applications ... : 123
+CORE 5060 Stopping all J2EE Connector 1.5 Compliant resource adapters ... : 125
+CORE 5061 Resource adapters Stop Complete : 128
+CORE5052 Application shutdown complete. : 129
+Starting Sun Java System Application Server 9.1_01 build b09d-fcs ... : 132
+MBeanServer started com.sun.enterprise.interceptor.DynamicInterceptor : 133
+CORE5098 AS Socket Service Initialization has been completed. : 134
+Using Java : 135
+About to load the system app MEjbApp : 152
+About to load the system app __ejb_container_timer_app : 160
+Application server startup complete. : 166
+CORE5051 Shutting down all J2EE applications ... : 171
+CORE 5060 Stopping all J2EE Connector 1.5 Compliant resource adapters ... : 173
+CORE 5061 Resource adapters Stop Complete : 176
+CORE5052 Application shutdown complete. : 177
+ \n|\n : 180
+Starting Sun Java System Application Server 9.1_01 build b09d-fcs ... : 181
+MBeanServer started com.sun.enterprise.interceptor.DynamicInterceptor : 182
+CORE5098 AS Socket Service Initialization has been completed. : 183
+Using Java : 184
+About to load the system app MEjbApp : 201
+About to load the system app __ejb_container_timer_app : 209
+Application server startup complete. : 219
+CORE5051 Shutting down all J2EE applications ... : 244
+CORE 5060 Stopping all J2EE Connector 1.5 Compliant resource adapters ... : 246
+CORE 5061 Resource adapters Stop Complete : 249
+CORE5052 Application shutdown complete. : 250
+ \n|\n : 253
+Starting Sun Java System Application Server 9.1_01 build b09d-fcs ... : 254
+MBeanServer started com.sun.enterprise.interceptor.DynamicInterceptor : 255
+CORE5098 AS Socket Service Initialization has been completed. : 256
+Using Java : 257
+About to load the system app MEjbApp : 276
+About to load the system app __ejb_container_timer_app : 284
+Application server startup complete. : 294
+CORE5051 Shutting down all J2EE applications ... : 1281
+CORE 5060 Stopping all J2EE Connector 1.5 Compliant resource adapters ... : 1283
+CORE 5061 Resource adapters Stop Complete : 1286
+CORE5052 Application shutdown complete. : 1287
+ \n|\n : 1290
+Starting Sun Java System Application Server 9.1_01 build b09d-fcs ... : 1291
+MBeanServer started com.sun.enterprise.interceptor.DynamicInterceptor : 1292
+CORE5098 AS Socket Service Initialization has been completed. : 1293
+Using Java : 1294
+About to load the system app MEjbApp : 1313
+About to load the system app __ejb_container_timer_app : 1321
+Application server startup complete. : 1335
+CORE5051 Shutting down all J2EE applications ... : 1338
+CORE 5060 Stopping all J2EE Connector 1.5 Compliant resource adapters ... : 1340
+CORE 5061 Resource adapters Stop Complete : 1343
+CORE5052 Application shutdown complete. : 1344
+ \n|\n : 1347
+Starting Sun Java System Application Server 9.1_01 build b09d-fcs ... : 1348
+MBeanServer started com.sun.enterprise.interceptor.DynamicInterceptor : 1349
+CORE5098 AS Socket Service Initialization has been completed. : 1350
+Using Java : 1351
+About to load the system app MEjbApp : 1369
+About to load the system app __ejb_container_timer_app : 1377
+Application server startup complete. : 1387
+CORE5051 Shutting down all J2EE applications ... : 1394
+CORE 5060 Stopping all J2EE Connector 1.5 Compliant resource adapters ... : 1396
+CORE 5061 Resource adapters Stop Complete : 1399
+CORE5052 Application shutdown complete. : 1400
+ \n|\n : 1403
+Starting Sun Java System Application Server 9.1_01 build b09d-fcs ... : 1404
+MBeanServer started com.sun.enterprise.interceptor.DynamicInterceptor : 1405
+CORE5098 AS Socket Service Initialization has been completed. : 1406
+Using Java : 1407
+Application server startup complete. : 1428
+CORE5051 Shutting down all J2EE applications ... : 1435
+CORE 5060 Stopping all J2EE Connector 1.5 Compliant resource adapters ... : 1436
+CORE 5061 Resource adapters Stop Complete : 1437
+CORE5052 Application shutdown complete. : 1438
+ \n|\n : 1441
+Starting Sun Java System Application Server 9.1_01 build b09d-fcs ... : 1442
+MBeanServer started com.sun.enterprise.interceptor.DynamicInterceptor : 1443
+CORE5098 AS Socket Service Initialization has been completed. : 1444
+Using Java : 1445
+Application server startup complete. : 1465
+CORE5051 Shutting down all J2EE applications ... : 1489
+CORE 5060 Stopping all J2EE Connector 1.5 Compliant resource adapters ... : 1490
+CORE 5061 Resource adapters Stop Complete : 1491
+CORE5052 Application shutdown complete. : 1492
+ \n|\n : 1495
+Starting Sun Java System Application Server 9.1_01 build b09d-fcs ... : 1496
+MBeanServer started com.sun.enterprise.interceptor.DynamicInterceptor : 1497
+CORE5098 AS Socket Service Initialization has been completed. : 1498
+Using Java : 1499
+Application server startup complete. : 1519
+CORE5051 Shutting down all J2EE applications ... : 1528
+CORE 5060 Stopping all J2EE Connector 1.5 Compliant resource adapters ... : 1529
+CORE 5061 Resource adapters Stop Complete : 1530
+CORE5052 Application shutdown complete. : 1531
+ \n|\n : 1534
+Starting Sun Java System Application Server 9.1_01 build b09d-fcs ... : 1535
+MBeanServer started com.sun.enterprise.interceptor.DynamicInterceptor : 1536
+CORE5098 AS Socket Service Initialization has been completed. : 1537
+Using Java : 1538
+Application server startup complete. : 1554
+About to load the system app MEjbApp : 1560
+About to load the system app __ejb_container_timer_app : 1568
+CORE5051 Shutting down all J2EE applications ... : 1595
+CORE 5060 Stopping all J2EE Connector 1.5 Compliant resource adapters ... : 1597
+CORE 5061 Resource adapters Stop Complete : 1600
+CORE5052 Application shutdown complete. : 1601
+ \n|\n : 1604
+Starting Sun Java System Application Server 9.1_01 build b09d-fcs ... : 1605
+MBeanServer started com.sun.enterprise.interceptor.DynamicInterceptor : 1606
+CORE5098 AS Socket Service Initialization has been completed. : 1607
+Using Java : 1608
+Application server startup complete. : 1624
+About to load the system app MEjbApp : 1630
+About to load the system app __ejb_container_timer_app : 1638
+CORE5051 Shutting down all J2EE applications ... : 1665
+CORE 5060 Stopping all J2EE Connector 1.5 Compliant resource adapters ... : 1667
+CORE 5061 Resource adapters Stop Complete : 1670
+CORE5052 Application shutdown complete. : 1671
+ \n|\n : 1674
+Starting Sun Java System Application Server 9.1_01 build b09d-fcs ... : 1675
+MBeanServer started com.sun.enterprise.interceptor.DynamicInterceptor : 1676
+CORE5098 AS Socket Service Initialization has been completed. : 1677
+Using Java : 1678
+Application server startup complete. : 1694
+About to load the system app MEjbApp : 1700
+About to load the system app __ejb_container_timer_app : 1708
+CORE5051 Shutting down all J2EE applications ... : 1735
+CORE 5060 Stopping all J2EE Connector 1.5 Compliant resource adapters ... : 1737
+CORE 5061 Resource adapters Stop Complete : 1740
+CORE5052 Application shutdown complete. : 1741
+ \n|\n : 1744
+Starting Sun Java System Application Server 9.1_01 build b09d-fcs ... : 1745
+MBeanServer started com.sun.enterprise.interceptor.DynamicInterceptor : 1746
+CORE5098 AS Socket Service Initialization has been completed. : 1747
+Using Java : 1748
+About to load the system app MEjbApp : 1765
+About to load the system app __ejb_container_timer_app : 1773
+Application server startup complete. : 1779
+CORE5051 Shutting down all J2EE applications ... : 1911
+CORE 5060 Stopping all J2EE Connector 1.5 Compliant resource adapters ... : 1913
+CORE 5061 Resource adapters Stop Complete : 1916
+CORE5052 Application shutdown complete. : 1917
+ \n|\n : 1920
+Starting Sun Java System Application Server 9.1_01 build b09d-fcs ... : 1921
+MBeanServer started com.sun.enterprise.interceptor.DynamicInterceptor : 1922
+CORE5098 AS Socket Service Initialization has been completed. : 1923
+Using Java : 1924
+About to load the system app MEjbApp : 1941
+About to load the system app __ejb_container_timer_app : 1949
+Application server startup complete. : 1955
+CORE5051 Shutting down all J2EE applications ... : 1961
+CORE 5060 Stopping all J2EE Connector 1.5 Compliant resource adapters ... : 1963
+CORE 5061 Resource adapters Stop Complete : 1966
+CORE5052 Application shutdown complete. : 1967
+ \n|\n : 1970
+Starting Sun Java System Application Server 9.1_01 build b09d-fcs ... : 1971
+MBeanServer started com.sun.enterprise.interceptor.DynamicInterceptor : 1972
+CORE5098 AS Socket Service Initialization has been completed. : 1973
+Using Java : 1974
+Application server startup complete. : 1990
+About to load the system app MEjbApp : 1994
+About to load the system app __ejb_container_timer_app : 2002
+CORE5051 Shutting down all J2EE applications ... : 2077
+CORE 5060 Stopping all J2EE Connector 1.5 Compliant resource adapters ... : 2079
+CORE 5061 Resource adapters Stop Complete : 2082
+CORE5052 Application shutdown complete. : 2083
+ \n|\n : 2086
+Starting Sun Java System Application Server 9.1_01 build b09d-fcs ... : 2087
+MBeanServer started com.sun.enterprise.interceptor.DynamicInterceptor : 2088
+CORE5098 AS Socket Service Initialization has been completed. : 2089
+Using Java : 2090
+About to load the system app MEjbApp : 2107
+About to load the system app __ejb_container_timer_app : 2115
+Application server startup complete. : 2121
+CORE5051 Shutting down all J2EE applications ... : 2133
+CORE 5060 Stopping all J2EE Connector 1.5 Compliant resource adapters ... : 2135
+CORE 5061 Resource adapters Stop Complete : 2138
+CORE5052 Application shutdown complete. : 2139
+ \n|\n : 2142
+Starting Sun Java System Application Server 9.1_01 build b09d-fcs ... : 2143
+MBeanServer started com.sun.enterprise.interceptor.DynamicInterceptor : 2144
+CORE5098 AS Socket Service Initialization has been completed. : 2145
+Using Java : 2146
+About to load the system app MEjbApp : 2163
+About to load the system app __ejb_container_timer_app : 2171
+Application server startup complete. : 2177
+CORE5051 Shutting down all J2EE applications ... : 2197
+CORE 5060 Stopping all J2EE Connector 1.5 Compliant resource adapters ... : 2199
+CORE 5061 Resource adapters Stop Complete : 2202
+CORE5052 Application shutdown complete. : 2203
+ \n|\n : -1

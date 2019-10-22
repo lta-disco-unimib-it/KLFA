@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="BctEclipseCore/lib/klfa.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/LogFileAnalysis-FSA/scripts/exportToBctEclipseCore.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="/BCT/scripts/export/exportToKLFA.MF" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <javaElement handleIdentifier="=LogFileAnalysis-FSA/src-ibm"/>
+        <javaElement handleIdentifier="=LogFileAnalysis-FSA/src-jvmMon"/>
+        <javaElement handleIdentifier="=LogFileAnalysis-FSA/src-stide"/>
+        <javaElement handleIdentifier="=LogFileAnalysis-FSA/src-iai"/>
+        <javaElement handleIdentifier="=LogFileAnalysis-FSA/src-nettech"/>
+        <javaElement handleIdentifier="=LogFileAnalysis-FSA/src-javalogs"/>
+        <javaElement handleIdentifier="=LogFileAnalysis-FSA/src"/>
+    </selectedElements>
+    <fatjar builder="org.eclipse.jdt.ui.plain_jar_builder" launchConfig=""/>
+</jardesc>

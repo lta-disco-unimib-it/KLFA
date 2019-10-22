@@ -1,0 +1,9 @@
+Component	Anomaly	Line	State	StateType	Event	Original log line	Original log event	To state	Branch length	Expected	Expected incoming
+3	Tail	5	q10	Existing	3_-1648356848)	27	3,-1648356848			3_R0032)  ;  3_R0031)  ;  	
+0	FinalState	5	q8	Existing	0_R0055)	20	0,R0055			0_R0052)  ;  0_R0057)  ;  	[ q12 : [q_11 at (110,175) label: 12] -> [q_12 at (15,140) label: 13,0]: "0_R0051)"  ;  ]
+5	FinalState	1	q2	Existing	5_R0065)	15	5,R0065			5_R0064)  ;  5_R0066__0__0)  ;  	[ q4 : [q_2 at (101,407) label: 1] -> [q_4 at (417,250) label: 2]: "5_R0064)"  ;  ][ q3 : [q_1 at (302,124) label: 3] -> [q_3 at (99,260) label: 4]: "5_R0064)"  ;  ]
+4	Tail	7	q12	Existing	4_289331648)	24	4,289331648			4_-1628344215)  ;  4_R0073)  ;  4_1573705168)  ;  4_R0075)  ;  	
+17	Tail	1	q3	Existing	17_-811928006)	25	17,-811928006			17_R0003)  ;  	
+GLOBAL	Tail	13	q109	Existing	14_R0020__0)	21	14,R0020,javapetstore-2.0-ea5			3_R0032)  ;  λ  ;  	
+23	NewComponent
+14	FinalState	1	q4	Existing	14_R0020__0)	21	14,R0020,javapetstore-2.0-ea5			14_R0023)  ;  	[ q8 : [q_5 at (426,326) label: 3] -> [q_8 at (385,431) label: 4]: "14_R0023)"  ;  ][ q7 : [q_8 at (385,431) label: 4] -> [q_7 at (97,284) label: 7,5,12,8]: "14_R0023)"  ;  [q_6 at (184,84) label: 0] -> [q_7 at (97,284) label: 7,5,12,8]: "14_R0023)"  ;  [q_4 at (528,277) label: 11,6] -> [q_7 at (97,284) label: 7,5,12,8]: "14_R0023)"  ;  ]

@@ -1,0 +1,10 @@
+
+C:\Tesi Laurea Specialistica\Fase X - Integrazione tra i Tools>java -cp bin/ tools.InvariantGenerator -logs "C:/Documents and Settings/ginian/Desktop/provajxl/" -dest "C:/Documents and Settings/ginian/Desktop/provajxl/" -cp "C:/Documents and Settings/ginian/Desktop/provajxl/";"C:/Documents and Settings/ginian/Desktop/provajxl/jxl.jar" ExampleJxl 
+Normalizing file C:\Documents and Settings\ginian\Desktop\provajxl\01-logs\ioInvariantLogs\IO-jxl.Workbook.getNumberOfSheets().dtrace
+Normalizing file C:\Documents and Settings\ginian\Desktop\provajxl\01-logs\ioInvariantLogs\IO-jxl.Workbook.getSheet(int).dtrace
+Normalizing file C:\Documents and Settings\ginian\Desktop\provajxl\01-logs\ioInvariantLogs\IO-jxl.Workbook.getWorkbook(java.io.InputStream).dtrace
+Normalizing file C:\Documents and Settings\ginian\Desktop\provajxl\01-logs\ioInvariantLogs\IO-jxl.Workbook.getWorkbook(java.io.InputStream,jxl.WorkbookSettings).dtrace
+Normalizing file C:\Documents and Settings\ginian\Desktop\provajxl\01-logs\ioInvariantLogs\IO-jxl.Workbook.parse().dtrace
+java -Xmx512m -XX:MaxPermSize=256m -classpath c:/daikon.jar daikon.Daikon -o "C:\Documents and Settings\ginian\Desktop\provajxl\03-distilled\ioInvariants\IO-jxl.Workbook.getNumberOfSheets()" "C:\Documents and Settings\ginian\Desktop\provajxl\02-normalized\traces\IO-jxl.Workbook.getNumberOfSheets().dtrace" "C:\Documents and Settings\ginian\Desktop\provajxl\02-normalized\decl\IO-jxl.Workbook.getNumberOfSheets().decls"
+java -Xmx512m -XX:MaxPermSize=256m -classpath c:/daikon.jar daikon.Daikon -o "C:\Documents and Settings\ginian\Desktop\provajxl\03-distilled\ioInvariants\IO-jxl.Workbook.getSheet(int)" "C:\Documents and Settings\ginian\Desktop\provajxl\02-normalized\traces\IO-jxl.Workbook.getSheet(int).dtrace" "C:\Documents and Settings\ginian\Desktop\provajxl\02-normalized\decl\IO-jxl.Workbook.getSheet(int).decls"
+Terminate batch job (Y/N)? 

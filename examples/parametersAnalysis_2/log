@@ -1,0 +1,35 @@
+Statistical information for trace 0
+Rule Name	Parameter Position	Occurrencies	AVG	
+C2_threadStart	0	5	1.0
+C1_findClass	0	6	1.0
+C2_threadStop	0	5	1.0
+C1_loadClass	0	6	1.0
+C2_threadWaited	0	5	1.25
+C2_threadWaited	1	5	5.0
+C2_threadWait	0	5	1.25
+C2_threadWait	1	5	5.0
+Rules intersections with value > [parametersAnalysis.ParametersIntersection@291aff, parametersAnalysis.ParametersIntersection@ab95e6]
+C1_findClass_0 and C1_loadClass_0 = 6
+C1_loadClass_0 and C1_findClass_0 = 6
+Clusters for trace 0 : 
+Name:	elements	values	distAvg	distStdDev	distMedian
+1:	C1_findClass_0 C1_loadClass_0 6	1.0	0.0	0.0	
+Statistical information for trace 0
+Rule Name	Parameter Position	Occurrencies	AVG	
+C2_threadStart	0	5	1.0
+C1_findClass	0	6	1.0
+C2_threadStop	0	5	1.0
+C1_loadClass	0	6	1.0
+C2_threadWaited	0	5	1.25
+C2_threadWaited	1	5	5.0
+C2_threadWait	0	5	1.25
+C2_threadWait	1	5	5.0
+Rules intersections with value > [parametersAnalysis.ParametersIntersection@1d99a4d, parametersAnalysis.ParametersIntersection@12152e6]
+C1_findClass_0 and C1_loadClass_0 = 6
+C1_loadClass_0 and C1_findClass_0 = 6
+Clusters for trace 1 : 
+Name:	elements	values	distAvg	distStdDev	distMedian
+1:	C1_findClass_0 C1_loadClass_0 6	1.0	0.0	0.0	
+Clusters : 
+Name:	valuesAvg		distAvg		distStdDev		distMedian
+1:	C1_findClass_0 C1_loadClass_0 	6.0	0.0	1.0	0.0	0.0	0.0	1.0	0.0	0.9166666666666666	0.0	0.27638539919628324	0.0	1.0	0.0	

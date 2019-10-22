@@ -1,0 +1,104 @@
+ADM0001 SunoneInterceptor is now enabled : 7
+ADM1079 Initialization of AMX MBeans started : 11
+ADM1504 Here is the JMXServiceURL for the Standard JMXConnectorServer . This is where the remote administrative clients should connect using the standard JMX connectors : 12
+ADM1506 Status of Standard JMX Connector Active true  : 13
+ADM1006 Uploading the file to /tmp/s1astempdomain1server1061999153/petstore.war  : 36
+ \n|\n : 66
+ADM0001 SunoneInterceptor is now enabled : 73
+ADM1079 Initialization of AMX MBeans started : 77
+ADM1504 Here is the JMXServiceURL for the Standard JMXConnectorServer . This is where the remote administrative clients should connect using the standard JMX connectors : 78
+ADM1506 Status of Standard JMX Connector Active true  : 79
+ADM1006 Uploading the file to /tmp/s1astempdomain1server1061999153/petstore.war  : 102
+ADM0001 SunoneInterceptor is now enabled : 138
+ADM1079 Initialization of AMX MBeans started : 142
+ADM1504 Here is the JMXServiceURL for the Standard JMXConnectorServer . This is where the remote administrative clients should connect using the standard JMX connectors : 143
+ADM1506 Status of Standard JMX Connector Active true  : 144
+ \n|\n : 180
+ADM0001 SunoneInterceptor is now enabled : 187
+ADM1079 Initialization of AMX MBeans started : 191
+ADM1504 Here is the JMXServiceURL for the Standard JMXConnectorServer . This is where the remote administrative clients should connect using the standard JMX connectors : 192
+ADM1506 Status of Standard JMX Connector Active true  : 193
+ADM1006 Uploading the file to /tmp/s1astempdomain1server1061999153/yawebmail.war  : 220
+ \n|\n : 253
+ADM0001 SunoneInterceptor is now enabled : 260
+ADM1079 Initialization of AMX MBeans started : 264
+ADM1504 Here is the JMXServiceURL for the Standard JMXConnectorServer . This is where the remote administrative clients should connect using the standard JMX connectors : 265
+ADM1506 Status of Standard JMX Connector Active true  : 266
+ADM1006 Uploading the file to /tmp/s1astempdomain1server1061999153/meshcms.war  : 295
+/domains/domain1/config/admin-keyfile . : 930
+ADM1041 Sent the event to instance com.sun.enterprise.admin.event.UserMgmtEvent -- server 0 Change s , Id 3, ts 1208944323917  : 931
+/domains/domain1/config/admin-keyfile . : 1146
+The password for administrative user security-realm admin-realm was changed successfully for immediate use on this domain administration server DAS . Refer to documentation for details. : 1147
+ADM1041 Sent the event to instance com.sun.enterprise.admin.event.UserMgmtEvent -- server 0 Change s , Id 4, ts 1208944407858  : 1148
+ \n|\n : 1290
+ADM0001 SunoneInterceptor is now enabled : 1297
+ADM1079 Initialization of AMX MBeans started : 1301
+ADM1504 Here is the JMXServiceURL for the Standard JMXConnectorServer . This is where the remote administrative clients should connect using the standard JMX connectors : 1302
+ADM1506 Status of Standard JMX Connector Active true  : 1303
+ \n|\n : 1347
+ADM0001 SunoneInterceptor is now enabled : 1354
+ADM1079 Initialization of AMX MBeans started : 1358
+ADM1504 Here is the JMXServiceURL for the Standard JMXConnectorServer . This is where the remote administrative clients should connect using the standard JMX connectors : 1359
+ADM1506 Status of Standard JMX Connector Active true  : 1360
+ \n|\n : 1403
+ADM0001 SunoneInterceptor is now enabled : 1410
+ADM1079 Initialization of AMX MBeans started : 1414
+ADM1504 Here is the JMXServiceURL for the Standard JMXConnectorServer . This is where the remote administrative clients should connect using the standard JMX connectors : 1415
+ADM1506 Status of Standard JMX Connector Active true  : 1416
+ \n|\n : 1441
+ADM0001 SunoneInterceptor is now enabled : 1448
+ADM1079 Initialization of AMX MBeans started : 1452
+ADM1504 Here is the JMXServiceURL for the Standard JMXConnectorServer . This is where the remote administrative clients should connect using the standard JMX connectors : 1453
+ADM1506 Status of Standard JMX Connector Active true  : 1454
+ \n|\n : 1495
+ADM0001 SunoneInterceptor is now enabled : 1502
+ADM1079 Initialization of AMX MBeans started : 1506
+ADM1504 Here is the JMXServiceURL for the Standard JMXConnectorServer . This is where the remote administrative clients should connect using the standard JMX connectors : 1507
+ADM1506 Status of Standard JMX Connector Active true  : 1508
+ \n|\n : 1534
+ADM0001 SunoneInterceptor is now enabled : 1541
+ADM1079 Initialization of AMX MBeans started : 1545
+ADM1504 Here is the JMXServiceURL for the Standard JMXConnectorServer . This is where the remote administrative clients should connect using the standard JMX connectors : 1546
+ADM1506 Status of Standard JMX Connector Active true  : 1547
+ADM1006 Uploading the file to /tmp/s1astempdomain1server1061999153/petstore.war  : 1555
+ \n|\n : 1604
+ADM0001 SunoneInterceptor is now enabled : 1611
+ADM1079 Initialization of AMX MBeans started : 1615
+ADM1504 Here is the JMXServiceURL for the Standard JMXConnectorServer . This is where the remote administrative clients should connect using the standard JMX connectors : 1616
+ADM1506 Status of Standard JMX Connector Active true  : 1617
+ADM1006 Uploading the file to /tmp/s1astempdomain1server1061999153/petstore.war  : 1625
+ \n|\n : 1674
+ADM0001 SunoneInterceptor is now enabled : 1681
+ADM1079 Initialization of AMX MBeans started : 1685
+ADM1504 Here is the JMXServiceURL for the Standard JMXConnectorServer . This is where the remote administrative clients should connect using the standard JMX connectors : 1686
+ADM1506 Status of Standard JMX Connector Active true  : 1687
+ADM1006 Uploading the file to /tmp/s1astempdomain1server1061999153/petstore.war  : 1695
+ \n|\n : 1744
+ADM0001 SunoneInterceptor is now enabled : 1751
+ADM1079 Initialization of AMX MBeans started : 1755
+ADM1504 Here is the JMXServiceURL for the Standard JMXConnectorServer . This is where the remote administrative clients should connect using the standard JMX connectors : 1756
+ADM1506 Status of Standard JMX Connector Active true  : 1757
+ \n|\n : 1920
+ADM0001 SunoneInterceptor is now enabled : 1927
+ADM1079 Initialization of AMX MBeans started : 1931
+ADM1504 Here is the JMXServiceURL for the Standard JMXConnectorServer . This is where the remote administrative clients should connect using the standard JMX connectors : 1932
+ADM1506 Status of Standard JMX Connector Active true  : 1933
+ \n|\n : 1970
+ADM0001 SunoneInterceptor is now enabled : 1977
+ADM1079 Initialization of AMX MBeans started : 1981
+ADM1504 Here is the JMXServiceURL for the Standard JMXConnectorServer . This is where the remote administrative clients should connect using the standard JMX connectors : 1982
+ADM1506 Status of Standard JMX Connector Active true  : 1983
+ADM1006 Uploading the file to /tmp/s1astempdomain1server1061999153/petstore.war  : 1991
+ADM1006 Uploading the file to /tmp/s1astempdomain1server1061999153/jwakeup-0.9.war  : 2014
+ \n|\n : 2086
+ADM0001 SunoneInterceptor is now enabled : 2093
+ADM1079 Initialization of AMX MBeans started : 2097
+ADM1504 Here is the JMXServiceURL for the Standard JMXConnectorServer . This is where the remote administrative clients should connect using the standard JMX connectors : 2098
+ADM1506 Status of Standard JMX Connector Active true  : 2099
+ \n|\n : 2142
+ADM0001 SunoneInterceptor is now enabled : 2149
+ADM1079 Initialization of AMX MBeans started : 2153
+ADM1504 Here is the JMXServiceURL for the Standard JMXConnectorServer . This is where the remote administrative clients should connect using the standard JMX connectors : 2154
+ADM1506 Status of Standard JMX Connector Active true  : 2155
+ADM1006 Uploading the file to /tmp/s1astempdomain1server1061999153/subsonic.war  : 2178
+ \n|\n : -1

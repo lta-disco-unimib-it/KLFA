@@ -1,0 +1,7 @@
+This example shows how component models can be built once you already know both
+which parameters belong to the same cluster and the rules to adopt to transform 
+values.
+
+run training to infer the model
+run checking to identify anomalies
+

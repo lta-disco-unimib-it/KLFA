@@ -1,0 +1,7 @@
+start Starting /subsonic
+createObjectName Registering j2eeType WebModule,name //localhost/subsonic,J2EEApplication none,J2EEServer none for null
+start Configuring default Resources
+start Processing standard container startup
+setPublicId Setting deployment descriptor public ID to 'null'
+setPublicId Setting deployment descriptor public ID to 'null'
+|

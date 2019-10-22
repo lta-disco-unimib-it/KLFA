@@ -1,0 +1,35 @@
+log4j WARN No appenders could be found for logger org.springframework.web.context.ContextLoader . : 214
+\\nlog4j WARN Please initialize the log4j system properly. : 215
+ \n|\n : 253
+log4j WARN No appenders could be found for logger org.springframework.web.context.ContextLoader . : 288
+\\nlog4j WARN Please initialize the log4j system properly. : 289
+ \n|\n : 1290
+log4j WARN No appenders could be found for logger org.springframework.web.context.ContextLoader . : 1329
+\\nlog4j WARN Please initialize the log4j system properly. : 1330
+ \n|\n : 1347
+log4j WARN No appenders could be found for logger org.springframework.web.context.ContextLoader . : 1381
+\\nlog4j WARN Please initialize the log4j system properly. : 1382
+ \n|\n : 1403
+log4j WARN No appenders could be found for logger org.springframework.web.context.ContextLoader . : 1423
+\\nlog4j WARN Please initialize the log4j system properly. : 1424
+ \n|\n : 1441
+log4j WARN No appenders could be found for logger org.springframework.web.context.ContextLoader . : 1460
+\\nlog4j WARN Please initialize the log4j system properly. : 1461
+\\nException in thread "HSQLDB Timer 2b6fc7" : 1487
+java.lang.NullPointerException\\n at org.hsqldb.lib.HsqlTimer.nextTask Unknown Source \\n at org.hsqldb.lib.HsqlTimer$TaskRunner.run Unknown Source \\n at java.lang.Thread.run Thread.java 619 \\n : 1488
+ \n|\n : 1495
+log4j WARN No appenders could be found for logger org.springframework.web.context.ContextLoader . : 1514
+\\nlog4j WARN Please initialize the log4j system properly. : 1515
+\\nException in thread "HSQLDB Timer 10bfe2c" : 1522
+java.lang.NullPointerException\\n at org.hsqldb.lib.HsqlTimer.nextTask Unknown Source \\n at org.hsqldb.lib.HsqlTimer$TaskRunner.run Unknown Source \\n at java.lang.Thread.run Thread.java 619 \\n : 1523
+ \n|\n : 1534
+ \n|\n : 1604
+ \n|\n : 1674
+ \n|\n : 1744
+ \n|\n : 1920
+ \n|\n : 1970
+ \n|\n : 2086
+ \n|\n : 2142
+log4j WARN No appenders could be found for logger org.springframework.web.context.ContextLoader . : 2180
+\\nlog4j WARN Please initialize the log4j system properly. : 2181
+ \n|\n : -1

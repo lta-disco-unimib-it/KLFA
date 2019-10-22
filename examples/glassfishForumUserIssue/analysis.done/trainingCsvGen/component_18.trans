@@ -1,0 +1,25 @@
+No context init parameter 'org.apache.myfaces.READONLY_AS_DISABLED_FOR_SELECTS' found, using default value true : 224
+No context init parameter 'org.apache.myfaces.RESOURCE_VIRTUAL_PATH' found, using default value /faces/myFacesExtensionResource : 225
+Starting up Tomahawk on the RI-JSF-Implementation. : 226
+Starting up Tomahawk on the MyFaces-JSF-Implementation : 227
+Both MyFaces and the RI are on your classpath. Please make sure to use only one of the two JSF-implementations. : 228
+ \n|\n : 253
+No context init parameter 'org.apache.myfaces.READONLY_AS_DISABLED_FOR_SELECTS' found, using default value true : 473
+No context init parameter 'org.apache.myfaces.RESOURCE_VIRTUAL_PATH' found, using default value /faces/myFacesExtensionResource : 474
+Starting up Tomahawk on the RI-JSF-Implementation. : 475
+Starting up Tomahawk on the MyFaces-JSF-Implementation : 476
+Both MyFaces and the RI are on your classpath. Please make sure to use only one of the two JSF-implementations. : 477
+ \n|\n : 1290
+ \n|\n : 1347
+ \n|\n : 1403
+ \n|\n : 1441
+ \n|\n : 1495
+ \n|\n : 1534
+ \n|\n : 1604
+ \n|\n : 1674
+ \n|\n : 1744
+ \n|\n : 1920
+ \n|\n : 1970
+ \n|\n : 2086
+ \n|\n : 2142
+ \n|\n : -1

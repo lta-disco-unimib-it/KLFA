@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#class=`basename $0|sed 's/^alfa-//'|sed 's/.sh$//g'`
+
+java -cp $KLFA_HOME/klfa-standalone.jar probabilisticAnalysis.SequencesStatsCalculator.frequentItemsetsAnalysis.SequencePatternAnalyzer $*
+

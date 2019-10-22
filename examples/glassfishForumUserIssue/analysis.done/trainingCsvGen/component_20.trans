@@ -1,0 +1,38 @@
+Configuring Mappings instance of type : 306
+org.apache.shale.remoting.impl.MappingsImpl : 307
+Configuring processor mapping : 308
+/static/* org.apache.shale.remoting.impl.ClassResourceProcessor : 309
+Configuring processor mapping : 310
+/dynamic/* org.apache.shale.remoting.impl.MethodBindingProcessor : 311
+Configuring processor mapping : 312
+/webapp/* org.apache.shale.remoting.impl.WebResourceProcessor : 313
+ \n|\n : 1290
+ \n|\n : 1347
+ \n|\n : 1403
+ \n|\n : 1441
+ \n|\n : 1495
+ \n|\n : 1534
+ \n|\n : 1604
+ \n|\n : 1674
+ \n|\n : 1744
+Configuring Mappings instance of type : 1781
+org.apache.shale.remoting.impl.MappingsImpl : 1782
+Configuring processor mapping : 1783
+/static/* org.apache.shale.remoting.impl.ClassResourceProcessor : 1784
+Configuring processor mapping : 1785
+/dynamic/* org.apache.shale.remoting.impl.MethodBindingProcessor : 1786
+Configuring processor mapping : 1787
+/webapp/* org.apache.shale.remoting.impl.WebResourceProcessor : 1788
+ \n|\n : 1920
+ \n|\n : 1970
+Configuring Mappings instance of type : 2020
+org.apache.shale.remoting.impl.MappingsImpl : 2021
+Configuring processor mapping : 2022
+/static/* org.apache.shale.remoting.impl.ClassResourceProcessor : 2023
+Configuring processor mapping : 2024
+/dynamic/* org.apache.shale.remoting.impl.MethodBindingProcessor : 2025
+Configuring processor mapping : 2026
+/webapp/* org.apache.shale.remoting.impl.WebResourceProcessor : 2027
+ \n|\n : 2086
+ \n|\n : 2142
+ \n|\n : -1

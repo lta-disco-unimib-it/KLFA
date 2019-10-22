@@ -1,0 +1,17 @@
+#!/bin/bash
+classpath=/home/fabrizio/WorkspacesRSA/workspaceGUI/LogFileAnalysis-FSA/bin/
+
+mode=$1
+
+if [ $mode = training ]
+then
+	output=training
+	input=training
+else
+	input=training
+	output=checking
+fi
+
+shift 1
+
+java -cp $classpath tools.kLFAEngine.LogTraceAnalyzer -separator "," -componentColumn 0 -eventColumn 1 -outputDir $output -inputDir $input applicationLevel $mode transformers.txt preprocessingRules.txt $@

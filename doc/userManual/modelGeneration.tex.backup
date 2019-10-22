@@ -1,0 +1,17 @@
+\section{Model Generation}
+
+In this phase the log files collected are analyzed by the system to
+derive a model that generalizes the application behavior.
+In this phase the initial logs files are preprocessed with different
+tools in order to:
+\begin{itemize}
+ \item have a complete event in a single line
+\item automatically detect event types and associated parameters
+\item detect rewriting strategies for parameters
+\item infer a model of the log files structure
+\end{itemize}
+
+Figure \ref{modelGenerationComponents} shows the components involved
+in this phase. All the components must be called from command lines
+and the user has to set parameters according to the analysis type and
+the

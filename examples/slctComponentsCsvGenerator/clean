@@ -1,0 +1,9 @@
+#!/bin/bash
+
+rm component_*.log
+rm component_*.trans
+rm *.csv
+rm components*
+rm out*
+rm parametersAnalysis.txt
+rm slctPatterns.properties

@@ -1,0 +1,55 @@
+#!/bin/bash
+
+
+offset=27
+#rawLogPreprocessor=rawLogsPreprocessing.generic.GenericLogPreprocessor
+#rawLogPreprocessor=rawLogsPreprocessing.java.UniformLogPreprocessor
+
+#program arguments must be the training logs
+
+java -cp /home/fabrizio/Workspaces/workspaceBCT/LogFileAnalysis-FSA/bin/ preprocessing.eventsSeparation.ManyToOneLinePreprocessor $@ server.events.txt
+
+
+java -cp /home/fabrizio/Workspaces/workspaceBCT/LogFileAnalysis-FSA/bin/ preprocessing.csvGeneration.slct.GenericLogToSlctPreprocessor -offset $offset server.events.txt server.correct.txt
+
+
+
+
+
+logFile="logFile.txt"
+cp server.correct.txt $logFile
+
+lines=`wc -l $logFile|awk '{print $1}'`
+
+#run slct to find clusters
+oldSupport=0
+support=$((lines/20))	#support is 5% of len
+supportRate=20
+supportRateIncrement=5
+oldLines=1
+while((support>5));
+	do 
+	echo "SUPPORT: $support"
+
+	/opt/slct-0.05/slct -s $support -r -o "outliers.txt" $logFile  | grep -v -E "Support: [0-9]" >> rules.txt
+	cat finalRules.txt >> rules.txt
+	mv rules.txt finalRules.txt
+	cp outliers.txt $logFile
+	echo "======" >> allOutliers.txt
+	cat outliers.txt >> allOutliers.txt
+	oldLines=$lines
+	lines=`wc -l $logFile|awk '{print $1}'`
+	if((lines==oldLines))
+	then
+		supportRate=$((supportRate+supportRateIncrement))
+	fi
+	support=$((lines/supportRate))
+	echo "cycle $support $lines $oldLines"
+done
+
+#derive the final csv file
+java -cp /home/fabrizio/Workspaces/workspaceBCT/LogFileAnalysis-FSA/bin/ preprocessing.csvGeneration.slct.SlctCsvGenerator -hashOutliers finalRules.txt server.correct.txt server.correct.csv &> slctPreprocessor.log
+
+#analyze parameters
+java -cp /home/fabrizio/Workspaces/workspaceBCT/LogFileAnalysis-FSA/bin/ preprocessing.parametersAnalysis.ParametersAnalyzer -actionElements 0,1 server.correct.csv parametersAnalysis.txt
+

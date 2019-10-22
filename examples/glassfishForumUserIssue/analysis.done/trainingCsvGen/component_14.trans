@@ -1,0 +1,56 @@
+Beginning JSP Precompile... : 42
+Finished JSP Precompile... : 43
+deployed with moduleid petstore : 50
+ AutoDeploy Disabling AutoDeployment service. : 64
+ \n|\n : 66
+Beginning JSP Precompile... : 108
+Finished JSP Precompile... : 109
+deployed with moduleid petstore : 116
+ AutoDeploy Disabling AutoDeployment service. : 130
+ AutoDeploy Disabling AutoDeployment service. : 178
+ \n|\n : 180
+deployed with moduleid yawebmail : 221
+ AutoDeploy Disabling AutoDeployment service. : 251
+ \n|\n : 253
+deployed with moduleid meshcms : 296
+ AutoDeploy Disabling AutoDeployment service. : 1288
+ \n|\n : 1290
+ AutoDeploy Disabling AutoDeployment service. : 1345
+ \n|\n : 1347
+ AutoDeploy Disabling AutoDeployment service. : 1401
+ \n|\n : 1403
+ AutoDeploy Disabling AutoDeployment service. : 1439
+ \n|\n : 1441
+ AutoDeploy Disabling AutoDeployment service. : 1493
+ \n|\n : 1495
+ AutoDeploy Disabling AutoDeployment service. : 1532
+ \n|\n : 1534
+Beginning JSP Precompile... : 1556
+Finished JSP Precompile... : 1557
+deployed with moduleid petstore : 1588
+ AutoDeploy Disabling AutoDeployment service. : 1602
+ \n|\n : 1604
+Beginning JSP Precompile... : 1626
+Finished JSP Precompile... : 1627
+deployed with moduleid petstore : 1658
+ AutoDeploy Disabling AutoDeployment service. : 1672
+ \n|\n : 1674
+Beginning JSP Precompile... : 1696
+Finished JSP Precompile... : 1697
+deployed with moduleid petstore : 1728
+ AutoDeploy Disabling AutoDeployment service. : 1742
+ \n|\n : 1744
+ AutoDeploy Disabling AutoDeployment service. : 1918
+ \n|\n : 1920
+ AutoDeploy Disabling AutoDeployment service. : 1968
+ \n|\n : 1970
+deployed with moduleid petstore : 2011
+deployed with moduleid jwakeup-0.9 : 2015
+Undeployment of component jwakeup failed. Component jwakeup is not registered. : 2018
+ AutoDeploy Disabling AutoDeployment service. : 2084
+ \n|\n : 2086
+ AutoDeploy Disabling AutoDeployment service. : 2140
+ \n|\n : 2142
+deployed with moduleid subsonic : 2179
+ AutoDeploy Disabling AutoDeployment service. : 2204
+ \n|\n : -1

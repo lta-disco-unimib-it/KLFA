@@ -1,0 +1,142 @@
+[#|2008-04-23T11:57:09.543+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=10;_ThreadName=main;|Starting Sun Java System Application Server 9.1_01 (build b09d-fcs) ...|#]
+
+[#|2008-04-23T11:57:09.791+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=11;_ThreadName=pool-1-thread-2;com.sun.enterprise.interceptor.DynamicInterceptor;|MBeanServer started: com.sun.enterprise.interceptor.DynamicInterceptor|#]
+
+[#|2008-04-23T11:57:10.580+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=10;_ThreadName=main;|CORE5098: AS Socket Service Initialization has been completed.|#]
+
+[#|2008-04-23T11:57:10.602+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=10;_ThreadName=main;Java HotSpot(TM) Client VM;1.6.0_04;Sun Microsystems Inc.;|CORE5076: Using [Java HotSpot(TM) Client VM, Version 1.6.0_04] from [Sun Microsystems Inc.]|#]
+
+[#|2008-04-23T11:57:10.651+0200|INFO|sun-appserver9.1|javax.enterprise.system.core.security|_ThreadID=10;_ThreadName=main;|SEC1002: Security Manager is OFF.|#]
+
+[#|2008-04-23T11:57:11.793+0200|INFO|sun-appserver9.1|javax.enterprise.system.stream.out|_ThreadID=10;_ThreadName=main;|/home/fabrizio/glassfish-v2ur1/domains/domain1/config/.__com_sun_appserv_pid|#]
+
+[#|2008-04-23T11:57:12.198+0200|INFO|sun-appserver9.1|javax.enterprise.system.tools.admin|_ThreadID=10;_ThreadName=main;|ADM0001:SunoneInterceptor is now enabled|#]
+
+[#|2008-04-23T11:57:12.374+0200|INFO|sun-appserver9.1|javax.enterprise.system.core.security|_ThreadID=10;_ThreadName=main;com.sun.enterprise.security.provider.PolicyWrapper;|SEC1143: Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.|#]
+
+[#|2008-04-23T11:57:13.086+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=10;_ThreadName=main;server;|WEB0114: SSO is disabled in virtual server [server]|#]
+
+[#|2008-04-23T11:57:13.101+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=10;_ThreadName=main;__asadmin;|WEB0114: SSO is disabled in virtual server [__asadmin]|#]
+
+[#|2008-04-23T11:57:13.784+0200|INFO|sun-appserver9.1|javax.enterprise.system.tools.admin|_ThreadID=10;_ThreadName=main;|ADM1079: Initialization of AMX MBeans started|#]
+
+[#|2008-04-23T11:57:14.289+0200|INFO|sun-appserver9.1|javax.enterprise.system.tools.admin|_ThreadID=12;_ThreadName=Thread-16;service:jmx:rmi:///jndi/rmi://laptop:8686/jmxrmi;|ADM1504: Here is the JMXServiceURL for the Standard JMXConnectorServer: [service:jmx:rmi:///jndi/rmi://laptop:8686/jmxrmi].  This is where the remote administrative clients should connect using the standard JMX connectors|#]
+
+[#|2008-04-23T11:57:14.289+0200|INFO|sun-appserver9.1|javax.enterprise.system.tools.admin|_ThreadID=12;_ThreadName=Thread-16;true;|ADM1506: Status of Standard JMX Connector: Active = [true]|#]
+
+[#|2008-04-23T11:57:15.140+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=10;_ThreadName=main;|WEB0302: Starting Sun-Java-System/Application-Server.|#]
+
+[#|2008-04-23T11:57:15.394+0200|INFO|sun-appserver9.1|com.sun.jbi.framework|_ThreadID=13;_ThreadName=pool-1-thread-3;|JBIFW0010: JBI framework ready to accept requests.|#]
+
+[#|2008-04-23T11:57:15.671+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=10;_ThreadName=main;8080;|WEB0712: Starting Sun-Java-System/Application-Server HTTP/1.1 on 8080|#]
+
+[#|2008-04-23T11:57:15.732+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=10;_ThreadName=main;8181;|WEB0712: Starting Sun-Java-System/Application-Server HTTP/1.1 on 8181|#]
+
+[#|2008-04-23T11:57:15.756+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=10;_ThreadName=main;4848;|WEB0712: Starting Sun-Java-System/Application-Server HTTP/1.1 on 4848|#]
+
+[#|2008-04-23T11:57:16.638+0200|WARNING|sun-appserver9.1|javax.enterprise.system.stream.err|_ThreadID=14;_ThreadName=pool-1-thread-6;_RequestID=6e40aa61-ed41-45f7-b02d-9fa15ae8850e;|log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).|#]
+
+[#|2008-04-23T11:57:16.643+0200|WARNING|sun-appserver9.1|javax.enterprise.system.stream.err|_ThreadID=14;_ThreadName=pool-1-thread-6;_RequestID=6e40aa61-ed41-45f7-b02d-9fa15ae8850e;|
+log4j:WARN Please initialize the log4j system properly.|#]
+
+[#|2008-04-23T11:57:16.644+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=14;_ThreadName=pool-1-thread-6;|PWC1412: WebModule[/subsonic] ServletContext.log():Loading Spring root WebApplicationContext|#]
+
+[#|2008-04-23T11:57:18.818+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=14;_ThreadName=pool-1-thread-6;|PWC1412: WebModule[/subsonic] ServletContext.log():Loading WebApplicationContext for Spring FrameworkServlet 'subsonic'|#]
+
+[#|2008-04-23T11:57:19.510+0200|INFO|sun-appserver9.1|javax.enterprise.system.core.selfmanagement|_ThreadID=10;_ThreadName=main;|SMGT0007: Self Management Rules service is enabled|#]
+
+[#|2008-04-23T11:57:19.538+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=10;_ThreadName=main;|Application server startup complete.|#]
+
+[#|2008-04-23T11:57:24.945+0200|INFO|sun-appserver9.1|javax.enterprise.system.stream.out|_ThreadID=15;_ThreadName=HTTP Monitor, sends data to IDE;|
+WARNING *********** NetBeans HTTP Monitor ************
+The request cannot be recorded most likely because the NetBeans HTTP Server is not running. Go to the IDE and start the HTTP Server from within the Runtime window to fix this problem.|#]
+
+[#|2008-04-23T11:57:26.980+0200|INFO|sun-appserver9.1|javax.enterprise.system.stream.out|_ThreadID=16;_ThreadName=HTTP Monitor, sends data to IDE;|
+WARNING *********** NetBeans HTTP Monitor ************
+The request cannot be recorded most likely because the NetBeans HTTP Server is not running. Go to the IDE and start the HTTP Server from within the Runtime window to fix this problem.|#]
+
+[#|2008-04-23T11:57:36.705+0200|INFO|sun-appserver9.1|javax.enterprise.system.stream.out|_ThreadID=17;_ThreadName=HTTP Monitor, sends data to IDE;|
+WARNING *********** NetBeans HTTP Monitor ************
+The request cannot be recorded most likely because the NetBeans HTTP Server is not running. Go to the IDE and start the HTTP Server from within the Runtime window to fix this problem.|#]
+
+[#|2008-04-23T11:57:36.780+0200|INFO|sun-appserver9.1|javax.enterprise.system.stream.out|_ThreadID=18;_ThreadName=HTTP Monitor, sends data to IDE;|
+WARNING *********** NetBeans HTTP Monitor ************
+The request cannot be recorded most likely because the NetBeans HTTP Server is not running. Go to the IDE and start the HTTP Server from within the Runtime window to fix this problem.|#]
+
+[#|2008-04-23T11:57:36.792+0200|INFO|sun-appserver9.1|javax.enterprise.system.stream.out|_ThreadID=19;_ThreadName=HTTP Monitor, sends data to IDE;|
+WARNING *********** NetBeans HTTP Monitor ************
+The request cannot be recorded most likely because the NetBeans HTTP Server is not running. Go to the IDE and start the HTTP Server from within the Runtime window to fix this problem.|#]
+
+[#|2008-04-23T11:57:36.846+0200|INFO|sun-appserver9.1|javax.enterprise.system.stream.out|_ThreadID=20;_ThreadName=HTTP Monitor, sends data to IDE;|
+WARNING *********** NetBeans HTTP Monitor ************
+The request cannot be recorded most likely because the NetBeans HTTP Server is not running. Go to the IDE and start the HTTP Server from within the Runtime window to fix this problem.|#]
+
+[#|2008-04-23T11:57:36.848+0200|INFO|sun-appserver9.1|javax.enterprise.system.stream.out|_ThreadID=21;_ThreadName=HTTP Monitor, sends data to IDE;|
+WARNING *********** NetBeans HTTP Monitor ************
+The request cannot be recorded most likely because the NetBeans HTTP Server is not running. Go to the IDE and start the HTTP Server from within the Runtime window to fix this problem.|#]
+
+[#|2008-04-23T11:57:36.873+0200|INFO|sun-appserver9.1|javax.enterprise.system.stream.out|_ThreadID=22;_ThreadName=HTTP Monitor, sends data to IDE;|
+WARNING *********** NetBeans HTTP Monitor ************
+The request cannot be recorded most likely because the NetBeans HTTP Server is not running. Go to the IDE and start the HTTP Server from within the Runtime window to fix this problem.|#]
+
+[#|2008-04-23T11:57:40.226+0200|INFO|sun-appserver9.1|javax.enterprise.system.stream.out|_ThreadID=23;_ThreadName=HTTP Monitor, sends data to IDE;|
+WARNING *********** NetBeans HTTP Monitor ************
+The request cannot be recorded most likely because the NetBeans HTTP Server is not running. Go to the IDE and start the HTTP Server from within the Runtime window to fix this problem.|#]
+
+[#|2008-04-23T11:57:45.329+0200|INFO|sun-appserver9.1|javax.enterprise.system.stream.out|_ThreadID=24;_ThreadName=HTTP Monitor, sends data to IDE;|
+WARNING *********** NetBeans HTTP Monitor ************
+The request cannot be recorded most likely because the NetBeans HTTP Server is not running. Go to the IDE and start the HTTP Server from within the Runtime window to fix this problem.|#]
+
+[#|2008-04-23T11:57:45.348+0200|INFO|sun-appserver9.1|javax.enterprise.system.stream.out|_ThreadID=25;_ThreadName=HTTP Monitor, sends data to IDE;|
+WARNING *********** NetBeans HTTP Monitor ************
+The request cannot be recorded most likely because the NetBeans HTTP Server is not running. Go to the IDE and start the HTTP Server from within the Runtime window to fix this problem.|#]
+
+[#|2008-04-23T11:57:45.408+0200|INFO|sun-appserver9.1|javax.enterprise.system.stream.out|_ThreadID=26;_ThreadName=HTTP Monitor, sends data to IDE;|
+WARNING *********** NetBeans HTTP Monitor ************
+The request cannot be recorded most likely because the NetBeans HTTP Server is not running. Go to the IDE and start the HTTP Server from within the Runtime window to fix this problem.|#]
+
+[#|2008-04-23T11:57:45.490+0200|INFO|sun-appserver9.1|javax.enterprise.system.stream.out|_ThreadID=27;_ThreadName=HTTP Monitor, sends data to IDE;|
+WARNING *********** NetBeans HTTP Monitor ************
+The request cannot be recorded most likely because the NetBeans HTTP Server is not running. Go to the IDE and start the HTTP Server from within the Runtime window to fix this problem.|#]
+
+[#|2008-04-23T11:57:52.682+0200|INFO|sun-appserver9.1|javax.enterprise.system.stream.out|_ThreadID=28;_ThreadName=HTTP Monitor, sends data to IDE;|
+WARNING *********** NetBeans HTTP Monitor ************
+The request cannot be recorded most likely because the NetBeans HTTP Server is not running. Go to the IDE and start the HTTP Server from within the Runtime window to fix this problem.|#]
+
+[#|2008-04-23T11:58:02.680+0200|INFO|sun-appserver9.1|javax.enterprise.system.stream.out|_ThreadID=29;_ThreadName=HTTP Monitor, sends data to IDE;|
+WARNING *********** NetBeans HTTP Monitor ************
+The request cannot be recorded most likely because the NetBeans HTTP Server is not running. Go to the IDE and start the HTTP Server from within the Runtime window to fix this problem.|#]
+
+[#|2008-04-23T11:58:22.023+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=30;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|WEB0303: Stopping Sun-Java-System/Application-Server.|#]
+
+[#|2008-04-23T11:58:22.026+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=30;_ThreadName=RMI TCP Connection(6)-127.0.0.1;8080;|WEB0713: Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8080|#]
+
+[#|2008-04-23T11:58:22.777+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=30;_ThreadName=RMI TCP Connection(6)-127.0.0.1;8181;|WEB0713: Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8181|#]
+
+[#|2008-04-23T11:58:23.220+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=30;_ThreadName=RMI TCP Connection(6)-127.0.0.1;4848;|WEB0713: Stopping Sun-Java-System/Application-Server HTTP/1.1 on 4848|#]
+
+[#|2008-04-23T11:58:26.825+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=30;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|PWC1412: WebModule[/subsonic] ServletContext.log():Closing WebApplicationContext of Spring FrameworkServlet 'subsonic'|#]
+
+[#|2008-04-23T11:58:26.833+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=30;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|PWC1412: WebModule[/subsonic] ServletContext.log():Closing Spring root WebApplicationContext|#]
+
+[#|2008-04-23T11:58:27.745+0200|WARNING|sun-appserver9.1|javax.enterprise.system.stream.err|_ThreadID=31;_ThreadName=HSQLDB Timer @2b6fc7;_RequestID=7c211c6d-a15b-4f4e-b12d-95ccb9b68f08;|
+Exception in thread "HSQLDB Timer @2b6fc7" |#]
+
+[#|2008-04-23T11:58:27.747+0200|WARNING|sun-appserver9.1|javax.enterprise.system.stream.err|_ThreadID=31;_ThreadName=HSQLDB Timer @2b6fc7;_RequestID=7c211c6d-a15b-4f4e-b12d-95ccb9b68f08;|java.lang.NullPointerException
+	at org.hsqldb.lib.HsqlTimer.nextTask(Unknown Source)
+	at org.hsqldb.lib.HsqlTimer$TaskRunner.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:619)
+|#]
+
+[#|2008-04-23T11:58:27.776+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=30;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|CORE5051: Shutting down all J2EE applications ...|#]
+
+[#|2008-04-23T11:58:27.777+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=30;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|CORE 5060 :  Stopping all J2EE Connector 1.5 Compliant resource adapters ...|#]
+
+[#|2008-04-23T11:58:27.778+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=30;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|CORE 5061 : Resource adapters Stop() Complete|#]
+
+[#|2008-04-23T11:58:27.778+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=30;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|CORE5052: Application shutdown complete.|#]
+
+[#|2008-04-23T11:58:27.804+0200|INFO|sun-appserver9.1|javax.enterprise.system.tools.deployment|_ThreadID=30;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|[AutoDeploy] Disabling AutoDeployment service.|#]
+
+[#|2008-04-23T11:58:28.016+0200|INFO|sun-appserver9.1|com.sun.jbi.framework|_ThreadID=30;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|JBIFW0042: JBI framework termination complete.|#]
+

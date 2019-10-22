@@ -1,0 +1,75 @@
+[#|2008-04-23T11:56:21.299+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=10;_ThreadName=main;|Starting Sun Java System Application Server 9.1_01 (build b09d-fcs) ...|#]
+
+[#|2008-04-23T11:56:21.522+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=11;_ThreadName=pool-1-thread-2;com.sun.enterprise.interceptor.DynamicInterceptor;|MBeanServer started: com.sun.enterprise.interceptor.DynamicInterceptor|#]
+
+[#|2008-04-23T11:56:22.292+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=10;_ThreadName=main;|CORE5098: AS Socket Service Initialization has been completed.|#]
+
+[#|2008-04-23T11:56:22.314+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=10;_ThreadName=main;Java HotSpot(TM) Client VM;1.6.0_04;Sun Microsystems Inc.;|CORE5076: Using [Java HotSpot(TM) Client VM, Version 1.6.0_04] from [Sun Microsystems Inc.]|#]
+
+[#|2008-04-23T11:56:22.361+0200|INFO|sun-appserver9.1|javax.enterprise.system.core.security|_ThreadID=10;_ThreadName=main;|SEC1002: Security Manager is OFF.|#]
+
+[#|2008-04-23T11:56:23.476+0200|INFO|sun-appserver9.1|javax.enterprise.system.stream.out|_ThreadID=10;_ThreadName=main;|/home/fabrizio/glassfish-v2ur1/domains/domain1/config/.__com_sun_appserv_pid|#]
+
+[#|2008-04-23T11:56:23.830+0200|INFO|sun-appserver9.1|javax.enterprise.system.tools.admin|_ThreadID=10;_ThreadName=main;|ADM0001:SunoneInterceptor is now enabled|#]
+
+[#|2008-04-23T11:56:24.001+0200|INFO|sun-appserver9.1|javax.enterprise.system.core.security|_ThreadID=10;_ThreadName=main;com.sun.enterprise.security.provider.PolicyWrapper;|SEC1143: Loading policy provider com.sun.enterprise.security.provider.PolicyWrapper.|#]
+
+[#|2008-04-23T11:56:24.641+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=10;_ThreadName=main;server;|WEB0114: SSO is disabled in virtual server [server]|#]
+
+[#|2008-04-23T11:56:24.655+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=10;_ThreadName=main;__asadmin;|WEB0114: SSO is disabled in virtual server [__asadmin]|#]
+
+[#|2008-04-23T11:56:25.360+0200|INFO|sun-appserver9.1|javax.enterprise.system.tools.admin|_ThreadID=10;_ThreadName=main;|ADM1079: Initialization of AMX MBeans started|#]
+
+[#|2008-04-23T11:56:25.880+0200|INFO|sun-appserver9.1|javax.enterprise.system.tools.admin|_ThreadID=12;_ThreadName=Thread-16;service:jmx:rmi:///jndi/rmi://laptop:8686/jmxrmi;|ADM1504: Here is the JMXServiceURL for the Standard JMXConnectorServer: [service:jmx:rmi:///jndi/rmi://laptop:8686/jmxrmi].  This is where the remote administrative clients should connect using the standard JMX connectors|#]
+
+[#|2008-04-23T11:56:25.880+0200|INFO|sun-appserver9.1|javax.enterprise.system.tools.admin|_ThreadID=12;_ThreadName=Thread-16;true;|ADM1506: Status of Standard JMX Connector: Active = [true]|#]
+
+[#|2008-04-23T11:56:27.019+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=10;_ThreadName=main;|WEB0302: Starting Sun-Java-System/Application-Server.|#]
+
+[#|2008-04-23T11:56:27.048+0200|INFO|sun-appserver9.1|com.sun.jbi.framework|_ThreadID=13;_ThreadName=pool-1-thread-4;|JBIFW0010: JBI framework ready to accept requests.|#]
+
+[#|2008-04-23T11:56:27.392+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=10;_ThreadName=main;8080;|WEB0712: Starting Sun-Java-System/Application-Server HTTP/1.1 on 8080|#]
+
+[#|2008-04-23T11:56:27.468+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=10;_ThreadName=main;8181;|WEB0712: Starting Sun-Java-System/Application-Server HTTP/1.1 on 8181|#]
+
+[#|2008-04-23T11:56:27.495+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=10;_ThreadName=main;4848;|WEB0712: Starting Sun-Java-System/Application-Server HTTP/1.1 on 4848|#]
+
+[#|2008-04-23T11:56:27.688+0200|INFO|sun-appserver9.1|org.apache.catalina.loader.WebappLoader|_ThreadID=13;_ThreadName=pool-1-thread-4;|Dual registration of jndi stream handler: factory already defined|#]
+
+[#|2008-04-23T11:56:28.714+0200|WARNING|sun-appserver9.1|javax.enterprise.system.stream.err|_ThreadID=14;_ThreadName=pool-1-thread-3;_RequestID=3217320f-45fb-4f45-99ee-7b86ddc2c7dd;|log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).|#]
+
+[#|2008-04-23T11:56:28.725+0200|WARNING|sun-appserver9.1|javax.enterprise.system.stream.err|_ThreadID=14;_ThreadName=pool-1-thread-3;_RequestID=3217320f-45fb-4f45-99ee-7b86ddc2c7dd;|
+log4j:WARN Please initialize the log4j system properly.|#]
+
+[#|2008-04-23T11:56:28.725+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=14;_ThreadName=pool-1-thread-3;|PWC1412: WebModule[/subsonic] ServletContext.log():Loading Spring root WebApplicationContext|#]
+
+[#|2008-04-23T11:56:30.414+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=14;_ThreadName=pool-1-thread-3;|PWC1412: WebModule[/subsonic] ServletContext.log():Loading WebApplicationContext for Spring FrameworkServlet 'subsonic'|#]
+
+[#|2008-04-23T11:56:31.141+0200|INFO|sun-appserver9.1|javax.enterprise.system.core.selfmanagement|_ThreadID=10;_ThreadName=main;|SMGT0007: Self Management Rules service is enabled|#]
+
+[#|2008-04-23T11:56:31.176+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=10;_ThreadName=main;|Application server startup complete.|#]
+
+[#|2008-04-23T11:56:43.924+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=15;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|WEB0303: Stopping Sun-Java-System/Application-Server.|#]
+
+[#|2008-04-23T11:56:43.926+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=15;_ThreadName=RMI TCP Connection(6)-127.0.0.1;8080;|WEB0713: Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8080|#]
+
+[#|2008-04-23T11:56:44.877+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=15;_ThreadName=RMI TCP Connection(6)-127.0.0.1;8181;|WEB0713: Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8181|#]
+
+[#|2008-04-23T11:56:45.872+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=15;_ThreadName=RMI TCP Connection(6)-127.0.0.1;4848;|WEB0713: Stopping Sun-Java-System/Application-Server HTTP/1.1 on 4848|#]
+
+[#|2008-04-23T11:56:55.553+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=15;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|PWC1412: WebModule[/subsonic] ServletContext.log():Closing WebApplicationContext of Spring FrameworkServlet 'subsonic'|#]
+
+[#|2008-04-23T11:56:55.572+0200|INFO|sun-appserver9.1|javax.enterprise.system.container.web|_ThreadID=15;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|PWC1412: WebModule[/subsonic] ServletContext.log():Closing Spring root WebApplicationContext|#]
+
+[#|2008-04-23T11:56:56.524+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=15;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|CORE5051: Shutting down all J2EE applications ...|#]
+
+[#|2008-04-23T11:56:56.525+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=15;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|CORE 5060 :  Stopping all J2EE Connector 1.5 Compliant resource adapters ...|#]
+
+[#|2008-04-23T11:56:56.526+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=15;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|CORE 5061 : Resource adapters Stop() Complete|#]
+
+[#|2008-04-23T11:56:56.526+0200|INFO|sun-appserver9.1|javax.enterprise.system.core|_ThreadID=15;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|CORE5052: Application shutdown complete.|#]
+
+[#|2008-04-23T11:56:56.545+0200|INFO|sun-appserver9.1|javax.enterprise.system.tools.deployment|_ThreadID=15;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|[AutoDeploy] Disabling AutoDeployment service.|#]
+
+[#|2008-04-23T11:56:57.049+0200|INFO|sun-appserver9.1|com.sun.jbi.framework|_ThreadID=15;_ThreadName=RMI TCP Connection(6)-127.0.0.1;|JBIFW0042: JBI framework termination complete.|#]
+

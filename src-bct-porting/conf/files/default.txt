@@ -1,0 +1,3 @@
+#Options to enable implications
+daikon.Daikon.guardNulls = always
+daikon.PptTopLevel.pairwise_implications = true

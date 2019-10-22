@@ -1,0 +1,18 @@
+
+
+
+
+Behavioral anomalies for component A2
+
+Anomaly	Line	State	Event	Original log line	Original log event
+Tail	5	q4	C2_A1__0)	10	C2,A1,E
+
+
+Behavioral anomalies for component A1
+
+Anomaly	Line	State	Event	Original log line	Original log event
+
+
+Behavioral anomalies for component GLOBAL
+
+Anomaly	Line	State	Event	Original log line	Original log event

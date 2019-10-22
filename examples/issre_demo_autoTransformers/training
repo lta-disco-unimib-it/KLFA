@@ -1,0 +1,4 @@
+#!/bin/bash
+
+klfaTransformationRulesGenerator.sh correct.csv
+klfaCsvAnalysis.sh splitComponent training transformersConfig.txt preprocessingRules.txt correct.csv

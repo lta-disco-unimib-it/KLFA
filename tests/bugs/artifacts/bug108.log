@@ -1,0 +1,8 @@
+loadClass loadClass org.apache.catalina.manager.host.HostManagerServlet, false 
+loadClass loadClass java.beans.IntrospectionException, false 
+loadClass loadClass java.beans.BeanInfo, false 
+loadClass loadClass org.apache.log4j.config.PropertySetterException, false 
+loadClass loadClass org.apache.oro.util.Cache, false 
+loadClass loadClass org.apache.oro.text.PatternCacheLRU, false LRU 
+loadClass loadClass org.apache.oro.text.GenericPatternCache, false 
+loadClass loadClass org.apache.oro.text.regex.PatternCompiler, false

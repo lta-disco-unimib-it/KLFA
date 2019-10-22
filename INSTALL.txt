@@ -1,0 +1,11 @@
+
+To build klfa run
+
+ant
+
+
+In order to make klfaScripts available from everywhere put this line in .bashrc
+
+export KLFA_HOME=/path/to/klfa/dist/
+export PATH=$PATH:$KLFA_HOME/bin
+

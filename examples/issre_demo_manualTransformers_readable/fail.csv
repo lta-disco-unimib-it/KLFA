@@ -1,0 +1,27 @@
+0,Server start,10.0.0.1
+0,Starting server on port,10.0.0.1,5432
+0,Server Started
+0,page request from,10.0.1.9
+0,user login request for,Mauro,10.0.1.9
+0,user logged in,Mauro,10.0.1.9
+0,user modify profile,Mauro,10.0.1.9
+0,user profile modified,Mauro,10.0.1.9
+0,user logout,Mauro,10.0.1.9
+0,page request from,10.0.1.8
+0,user login request for,guest,10.0.1.8
+0,user logged in,guest,10.0.1.8
+0,user modify profile,Leonardo,10.0.1.8
+0,user profile modified,Leonardo,10.0.1.8
+0,user logout,guest,10.0.1.8
+0,page request from,10.0.0.23
+0,user login request for,Fabrizio,10.0.0.23
+0,user logged in,Fabrizio,10.0.0.23
+0,user modify profile,Fabrizio,10.0.0.23
+0,user profile modified,Fabrizio,10.0.0.23
+0,user logout,Fabrizio,10.0.0.23
+0,page request from,10.0.1.5
+0,user login request for,Leonardo,10.0.1.5
+0,user logged in,Leonardo,10.0.1.5
+0,user modify profile,Leonardo,10.0.1.5
+0,DB Exception
+0,Exception

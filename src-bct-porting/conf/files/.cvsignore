@@ -1,0 +1,15 @@
+*.properties
+classesToIgnore.list
+DBConnectionSettings.conf
+DBLoggingRecorderOptions.conf
+InteractionInferenceEngineSettings.conf
+FileTraceReaderSettings.conf
+FileInvariantGeneratorSettings.conf
+FileViolationsRecorderOptions.conf
+FileModelsFetcherSettings.conf
+fieldsFilter.conf
+inspectorRecognizers.list
+FileLoggingRecorderOptions.conf
+plugins.list
+objectFlattener.conf
+*.conf

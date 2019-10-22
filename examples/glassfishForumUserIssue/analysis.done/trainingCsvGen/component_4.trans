@@ -1,0 +1,229 @@
+WEB0114 SSO is disabled in virtual server server  : 9
+WEB0114 SSO is disabled in virtual server __asadmin  : 10
+WEB0302 Starting Sun-Java-System/Application-Server. : 14
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 16
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 17
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 18
+WEB0303 Stopping Sun-Java-System/Application-Server. : 53
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 54
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 55
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 56
+ \n|\n : 66
+WEB0114 SSO is disabled in virtual server server  : 75
+WEB0114 SSO is disabled in virtual server __asadmin  : 76
+WEB0302 Starting Sun-Java-System/Application-Server. : 80
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 82
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 83
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 84
+WEB0303 Stopping Sun-Java-System/Application-Server. : 119
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 120
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 121
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 122
+WEB0114 SSO is disabled in virtual server server  : 140
+WEB0114 SSO is disabled in virtual server __asadmin  : 141
+WEB0302 Starting Sun-Java-System/Application-Server. : 145
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 147
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 148
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 149
+WEB0303 Stopping Sun-Java-System/Application-Server. : 167
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 168
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 169
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 170
+ \n|\n : 180
+WEB0114 SSO is disabled in virtual server server  : 189
+WEB0114 SSO is disabled in virtual server __asadmin  : 190
+WEB0302 Starting Sun-Java-System/Application-Server. : 194
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 196
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 197
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 198
+PWC1412 WebModule /subsonic ServletContext.log Loading Spring root WebApplicationContext : 216
+PWC1412 WebModule /subsonic ServletContext.log Loading WebApplicationContext for Spring FrameworkServlet 'subsonic' : 217
+WEB0303 Stopping Sun-Java-System/Application-Server. : 237
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 238
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 239
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 240
+PWC1412 WebModule /subsonic ServletContext.log Closing WebApplicationContext of Spring FrameworkServlet 'subsonic' : 242
+PWC1412 WebModule /subsonic ServletContext.log Closing Spring root WebApplicationContext : 243
+ \n|\n : 253
+WEB0114 SSO is disabled in virtual server server  : 262
+WEB0114 SSO is disabled in virtual server __asadmin  : 263
+WEB0302 Starting Sun-Java-System/Application-Server. : 267
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 269
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 270
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 271
+PWC1412 WebModule /subsonic ServletContext.log Loading Spring root WebApplicationContext : 290
+PWC1412 WebModule /subsonic ServletContext.log Loading WebApplicationContext for Spring FrameworkServlet 'subsonic' : 292
+WEB0303 Stopping Sun-Java-System/Application-Server. : 1273
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 1274
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 1275
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 1276
+PWC1412 WebModule /subsonic ServletContext.log Closing WebApplicationContext of Spring FrameworkServlet 'subsonic' : 1279
+PWC1412 WebModule /subsonic ServletContext.log Closing Spring root WebApplicationContext : 1280
+ \n|\n : 1290
+WEB0114 SSO is disabled in virtual server server  : 1299
+WEB0114 SSO is disabled in virtual server __asadmin  : 1300
+WEB0302 Starting Sun-Java-System/Application-Server. : 1304
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 1306
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 1307
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 1308
+WEB0303 Stopping Sun-Java-System/Application-Server. : 1325
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 1326
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 1327
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 1328
+PWC1412 WebModule /subsonic ServletContext.log Loading Spring root WebApplicationContext : 1331
+PWC1412 WebModule /subsonic ServletContext.log Loading WebApplicationContext for Spring FrameworkServlet 'subsonic' : 1333
+PWC1412 WebModule /subsonic ServletContext.log Closing WebApplicationContext of Spring FrameworkServlet 'subsonic' : 1336
+PWC1412 WebModule /subsonic ServletContext.log Closing Spring root WebApplicationContext : 1337
+ \n|\n : 1347
+WEB0114 SSO is disabled in virtual server server  : 1356
+WEB0114 SSO is disabled in virtual server __asadmin  : 1357
+WEB0302 Starting Sun-Java-System/Application-Server. : 1362
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 1363
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 1364
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 1365
+PWC1412 WebModule /subsonic ServletContext.log Loading Spring root WebApplicationContext : 1383
+PWC1412 WebModule /subsonic ServletContext.log Loading WebApplicationContext for Spring FrameworkServlet 'subsonic' : 1385
+WEB0303 Stopping Sun-Java-System/Application-Server. : 1388
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 1389
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 1390
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 1391
+PWC1412 WebModule /subsonic ServletContext.log Closing WebApplicationContext of Spring FrameworkServlet 'subsonic' : 1392
+PWC1412 WebModule /subsonic ServletContext.log Closing Spring root WebApplicationContext : 1393
+ \n|\n : 1403
+WEB0114 SSO is disabled in virtual server server  : 1412
+WEB0114 SSO is disabled in virtual server __asadmin  : 1413
+WEB0302 Starting Sun-Java-System/Application-Server. : 1417
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 1419
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 1420
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 1421
+PWC1412 WebModule /subsonic ServletContext.log Loading Spring root WebApplicationContext : 1425
+PWC1412 WebModule /subsonic ServletContext.log Loading WebApplicationContext for Spring FrameworkServlet 'subsonic' : 1426
+WEB0303 Stopping Sun-Java-System/Application-Server. : 1429
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 1430
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 1431
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 1432
+PWC1412 WebModule /subsonic ServletContext.log Closing WebApplicationContext of Spring FrameworkServlet 'subsonic' : 1433
+PWC1412 WebModule /subsonic ServletContext.log Closing Spring root WebApplicationContext : 1434
+ \n|\n : 1441
+WEB0114 SSO is disabled in virtual server server  : 1450
+WEB0114 SSO is disabled in virtual server __asadmin  : 1451
+WEB0302 Starting Sun-Java-System/Application-Server. : 1455
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 1457
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 1458
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 1459
+PWC1412 WebModule /subsonic ServletContext.log Loading Spring root WebApplicationContext : 1462
+PWC1412 WebModule /subsonic ServletContext.log Loading WebApplicationContext for Spring FrameworkServlet 'subsonic' : 1463
+WEB0303 Stopping Sun-Java-System/Application-Server. : 1481
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 1482
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 1483
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 1484
+PWC1412 WebModule /subsonic ServletContext.log Closing WebApplicationContext of Spring FrameworkServlet 'subsonic' : 1485
+PWC1412 WebModule /subsonic ServletContext.log Closing Spring root WebApplicationContext : 1486
+ \n|\n : 1495
+WEB0114 SSO is disabled in virtual server server  : 1504
+WEB0114 SSO is disabled in virtual server __asadmin  : 1505
+WEB0302 Starting Sun-Java-System/Application-Server. : 1509
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 1511
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 1512
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 1513
+PWC1412 WebModule /subsonic ServletContext.log Loading Spring root WebApplicationContext : 1516
+PWC1412 WebModule /subsonic ServletContext.log Loading WebApplicationContext for Spring FrameworkServlet 'subsonic' : 1517
+PWC1412 WebModule /subsonic ServletContext.log Closing WebApplicationContext of Spring FrameworkServlet 'subsonic' : 1520
+PWC1412 WebModule /subsonic ServletContext.log Closing Spring root WebApplicationContext : 1521
+WEB0303 Stopping Sun-Java-System/Application-Server. : 1524
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 1525
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 1526
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 1527
+ \n|\n : 1534
+WEB0114 SSO is disabled in virtual server server  : 1543
+WEB0114 SSO is disabled in virtual server __asadmin  : 1544
+WEB0302 Starting Sun-Java-System/Application-Server. : 1548
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 1550
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 1551
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 1552
+WEB0303 Stopping Sun-Java-System/Application-Server. : 1591
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 1592
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 1593
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 1594
+ \n|\n : 1604
+WEB0114 SSO is disabled in virtual server server  : 1613
+WEB0114 SSO is disabled in virtual server __asadmin  : 1614
+WEB0302 Starting Sun-Java-System/Application-Server. : 1618
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 1619
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 1620
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 1621
+WEB0303 Stopping Sun-Java-System/Application-Server. : 1661
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 1662
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 1663
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 1664
+ \n|\n : 1674
+WEB0114 SSO is disabled in virtual server server  : 1683
+WEB0114 SSO is disabled in virtual server __asadmin  : 1684
+WEB0302 Starting Sun-Java-System/Application-Server. : 1688
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 1690
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 1691
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 1692
+WEB0303 Stopping Sun-Java-System/Application-Server. : 1731
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 1732
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 1733
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 1734
+ \n|\n : 1744
+WEB0114 SSO is disabled in virtual server server  : 1753
+WEB0114 SSO is disabled in virtual server __asadmin  : 1754
+WEB0302 Starting Sun-Java-System/Application-Server. : 1758
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 1760
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 1761
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 1762
+WEB0303 Stopping Sun-Java-System/Application-Server. : 1906
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 1907
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 1908
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 1909
+ \n|\n : 1920
+WEB0114 SSO is disabled in virtual server server  : 1929
+WEB0114 SSO is disabled in virtual server __asadmin  : 1930
+WEB0302 Starting Sun-Java-System/Application-Server. : 1934
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 1936
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 1937
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 1938
+WEB0303 Stopping Sun-Java-System/Application-Server. : 1957
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 1958
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 1959
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 1960
+ \n|\n : 1970
+WEB0114 SSO is disabled in virtual server server  : 1979
+WEB0114 SSO is disabled in virtual server __asadmin  : 1980
+WEB0302 Starting Sun-Java-System/Application-Server. : 1984
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 1986
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 1987
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 1988
+WEB0303 Stopping Sun-Java-System/Application-Server. : 2072
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 2073
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 2074
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 2075
+ \n|\n : 2086
+WEB0114 SSO is disabled in virtual server server  : 2095
+WEB0114 SSO is disabled in virtual server __asadmin  : 2096
+WEB0302 Starting Sun-Java-System/Application-Server. : 2100
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 2102
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 2103
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 2104
+WEB0303 Stopping Sun-Java-System/Application-Server. : 2129
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 2130
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 2131
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 2132
+ \n|\n : 2142
+WEB0114 SSO is disabled in virtual server server  : 2151
+WEB0114 SSO is disabled in virtual server __asadmin  : 2152
+WEB0302 Starting Sun-Java-System/Application-Server. : 2156
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 2158
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 2159
+WEB0712 Starting Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 2160
+PWC1412 WebModule /subsonic ServletContext.log Loading Spring root WebApplicationContext : 2182
+PWC1412 WebModule /subsonic ServletContext.log Loading WebApplicationContext for Spring FrameworkServlet 'subsonic' : 2183
+WEB0303 Stopping Sun-Java-System/Application-Server. : 2191
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8080 : 2192
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 8181 : 2193
+WEB0713 Stopping Sun-Java-System/Application-Server HTTP/1.1 on 4848 : 2194
+PWC1412 WebModule /subsonic ServletContext.log Closing WebApplicationContext of Spring FrameworkServlet 'subsonic' : 2195
+PWC1412 WebModule /subsonic ServletContext.log Closing Spring root WebApplicationContext : 2196
+ \n|\n : -1
