@@ -1,0 +1,92 @@
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 19
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 23
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 26
+EJB5109 EJB Timer Service started successfully for datasource jdbc/__TimerPool  : 30
+EJB5122 EJB Timer Service shutdown at 2008/04/22 , 22 , 49 , 07  : 58
+ \n|\n : 66
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 85
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 89
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 92
+EJB5109 EJB Timer Service started successfully for datasource jdbc/__TimerPool  : 96
+EJB5122 EJB Timer Service shutdown at 2008/04/22 , 22 , 49 , 07  : 124
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 150
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 154
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 157
+EJB5109 EJB Timer Service started successfully for datasource jdbc/__TimerPool  : 161
+EJB5122 EJB Timer Service shutdown at 2008/04/22 , 22 , 52 , 34  : 172
+ \n|\n : 180
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 199
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 203
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 206
+EJB5109 EJB Timer Service started successfully for datasource jdbc/__TimerPool  : 210
+EJB5122 EJB Timer Service shutdown at 2008/04/23 , 11 , 44 , 49  : 245
+ \n|\n : 253
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 274
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 278
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 281
+EJB5109 EJB Timer Service started successfully for datasource jdbc/__TimerPool  : 285
+EJB5122 EJB Timer Service shutdown at 2008/04/23 , 11 , 54 , 26  : 1282
+ \n|\n : 1290
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1311
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1315
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1318
+EJB5109 EJB Timer Service started successfully for datasource jdbc/__TimerPool  : 1322
+EJB5122 EJB Timer Service shutdown at 2008/04/23 , 11 , 55 , 01  : 1339
+ \n|\n : 1347
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1367
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1371
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1374
+EJB5109 EJB Timer Service started successfully for datasource jdbc/__TimerPool  : 1378
+EJB5122 EJB Timer Service shutdown at 2008/04/23 , 11 , 56 , 04  : 1395
+ \n|\n : 1403
+ \n|\n : 1441
+ \n|\n : 1495
+ \n|\n : 1534
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1558
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1562
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1565
+EJB5109 EJB Timer Service started successfully for datasource jdbc/__TimerPool  : 1569
+EJB5122 EJB Timer Service shutdown at 2008/04/22 , 22 , 55 , 51  : 1596
+ \n|\n : 1604
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1628
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1632
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1635
+EJB5109 EJB Timer Service started successfully for datasource jdbc/__TimerPool  : 1639
+EJB5122 EJB Timer Service shutdown at 2008/04/22 , 22 , 58 , 27  : 1666
+ \n|\n : 1674
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1698
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1702
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1705
+EJB5109 EJB Timer Service started successfully for datasource jdbc/__TimerPool  : 1709
+EJB5122 EJB Timer Service shutdown at 2008/04/22 , 23 , 01 , 32  : 1736
+ \n|\n : 1744
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1763
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1767
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1770
+EJB5109 EJB Timer Service started successfully for datasource jdbc/__TimerPool  : 1774
+EJB5122 EJB Timer Service shutdown at 2008/04/23 , 11 , 33 , 19  : 1912
+ \n|\n : 1920
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1939
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1943
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1946
+EJB5109 EJB Timer Service started successfully for datasource jdbc/__TimerPool  : 1950
+EJB5122 EJB Timer Service shutdown at 2008/04/23 , 11 , 34 , 45  : 1962
+ \n|\n : 1970
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1992
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1996
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 1999
+EJB5109 EJB Timer Service started successfully for datasource jdbc/__TimerPool  : 2003
+EJB5122 EJB Timer Service shutdown at 2008/04/23 , 11 , 38 , 59  : 2078
+ \n|\n : 2086
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 2105
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 2109
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 2112
+EJB5109 EJB Timer Service started successfully for datasource jdbc/__TimerPool  : 2116
+EJB5122 EJB Timer Service shutdown at 2008/04/23 , 11 , 40 , 46  : 2134
+ \n|\n : 2142
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 2161
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 2165
+EJBSCLookup sc.getEjbContainerAvailabilityEnabledFromConfig > false : 2168
+EJB5109 EJB Timer Service started successfully for datasource jdbc/__TimerPool  : 2172
+EJB5122 EJB Timer Service shutdown at 2008/04/23 , 11 , 42 , 14  : 2198
+ \n|\n : -1

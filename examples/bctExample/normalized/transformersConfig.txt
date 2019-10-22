@@ -1,0 +1,13 @@
+net.n3.nanoxml.StdXMLBuilder.<init>(()V)_net.n3.nanoxml.XMLElement.<init>((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;I)V)E#_0,RA
+net.n3.nanoxml.XMLParserFactory.createDefaultXMLParser(()Lnet.n3.nanoxml.IXMLParser;)_net.n3.nanoxml.XMLElement.<init>((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;I)V)B#_0,RA
+java.io.FileInputStream.<init>((Ljava.lang.String;)V)_java.io.FileInputStream.<init>((Ljava.lang.String;)V)E#_0,RA
+java.io.PushbackInputStream.read(()I)_java.io.PushbackInputStream.read(()I)E#_0,RA
+net.n3.nanoxml.StdXMLBuilder.<init>(()V)_net.n3.nanoxml.XMLElement.<init>((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;I)V)E#_1,RA
+net.n3.nanoxml.XMLParserFactory.createDefaultXMLParser(()Lnet.n3.nanoxml.IXMLParser;)_net.n3.nanoxml.XMLElement.<init>((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;I)V)B#_1,RA
+net.n3.nanoxml.StdXMLBuilder.<init>(()V)_net.n3.nanoxml.XMLElement.<init>((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;I)V)E#_2,RA
+net.n3.nanoxml.XMLParserFactory.createDefaultXMLParser(()Lnet.n3.nanoxml.IXMLParser;)_net.n3.nanoxml.XMLElement.<init>((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;I)V)B#_2,RA
+net.n3.nanoxml.StdXMLBuilder.<init>(()V)_net.n3.nanoxml.XMLElement.<init>((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;I)V)E#_3,RA
+net.n3.nanoxml.XMLParserFactory.createDefaultXMLParser(()Lnet.n3.nanoxml.IXMLParser;)_net.n3.nanoxml.XMLElement.<init>((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;I)V)B#_3,RA
+net.n3.nanoxml.StdXMLReader.stream2reader((Ljava.io.InputStream;Ljava.lang.StringBuffer;)Ljava.io.Reader;)_java.io.PushbackInputStream.read(()I)E#_0,RA
+SAME,SAME
+net.n3.nanoxml.StdXMLReader.fileReader((Ljava.lang.String;)Lnet.n3.nanoxml.IXMLReader;)_java.io.FileInputStream.<init>((Ljava.lang.String;)V)B#_0,RA

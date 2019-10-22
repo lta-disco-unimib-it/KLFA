@@ -1,0 +1,146 @@
+
+\ifx\pdfoutput\undefined % sezione non pdflatex
+    \documentclass[11pt,a4paper,openright]{book}
+    \usepackage[dvips]{graphicx}
+    \RequirePackage[dvipdfm,hyperindex]{hyperref}
+\else
+    \documentclass[pdftex,11pt,a4paper]{book}
+    \usepackage[pdftex]{graphicx}
+    \DeclareGraphicsExtensions{.pdf,.png,.jpg,.mps}
+    \DeclareGraphicsRule{0.pdf}{pdf}{*}{}
+    \RequirePackage[hyperindex]{hyperref}
+    \usepackage{thumbpdf}
+\fi
+
+%************************************************************
+                % Uso italiano, aneddoti, citazioni, grigio ecc.
+%\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+%\usepackage[fixlanguage]{babelbib}
+\usepackage{pdflscape}
+%\selectbiblanguage{italian}
+\usepackage{framed}
+\usepackage{colortbl}
+\usepackage{color}
+%\usepackage{longtable}
+
+\usepackage{multirow}
+\usepackage{emptypage}
+
+% \usepackage{sidewaystable}
+\usepackage{rotating}
+
+%************************************************************
+
+
+\linespread{1.3}
+
+%************************************************************
+ 
+ \addtolength{\hoffset}{-0.5cm}
+ \addtolength{\textwidth}{5cm}
+%  \addtolength{\evensidemargin}{-1.2cm}
+%  \addtolength{\oddsidemargin}{1.2cm}
+  \renewcommand{\oddsidemargin}{0cm}
+ \renewcommand{\evensidemargin}{0cm}
+ \footskip=37pt
+
+%************************************************************
+                % Elaborazione intestazione e piè di pagina
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+ \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+ \renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+ \fancyhf{} %
+ \fancyfoot[LE,RO]{\bfseries\thepage}
+ \fancyhead[LE]{\bfseries\leftmark}
+ \fancyhead[RO]{\bfseries\rightmark}
+ \renewcommand{\headrulewidth}{0.4pt}
+ \renewcommand{\footrulewidth}{0.4pt}
+ %\addtolength{\headheight}{0.5pt}
+ \renewcommand{\headheight}{13.6pt}
+ \fancypagestyle{plain}{%
+ \fancyhead{} % ignora, nello stile plain, le intestazioni
+ \renewcommand{\headrulewidth}{0pt} % e la linea
+ }
+
+\usepackage{newcent}
+
+\usepackage{acronym}
+\usepackage{supertabular}
+\newenvironment{grigio}[1]{\begin{tabular}{>{\columncolor[gray]{.90}}{
+#1}}}{\end{tabular}}
+\newenvironment{nero}[1]{\begin{tabular}{>{\columncolor[gray]{0.00}}{
+#1}}}{\end{tabular}}
+
+\definecolor{hellgelb}{rgb}{1,1,0.8}
+\definecolor{colKeys}{rgb}{0,0,1}
+\definecolor{colKeys2}{rgb}{0,0,0.4}
+\definecolor{colIdentifier}{rgb}{0,0,0}
+\definecolor{colComments}{rgb}{1,0,0}
+\definecolor{colString}{rgb}{0,0.5,0}
+\definecolor{grigino}{gray}{0.90}
+\definecolor{bianco}{rgb}{1,1,1}
+\usepackage{longtable}
+\usepackage{listings}
+\usepackage[final]{pdfpages}
+\usepackage{eso-pic}
+
+
+\makeatletter
+\providecommand{\toclevel@lstlisting}{0}
+\makeatother
+
+%************************************************************
+                %   Indice Analitico
+\usepackage{makeidx}
+\makeindex
+\usepackage{url}
+\usepackage{lettrine}
+
+%\usepackage[Bjarne]{fncychap}
+
+\bibliographystyle{alpha}
+
+
+%************************************************************
+                %   SI INIZIA
+\begin{document}
+
+%************************************************************
+                %   Copertina
+    \include{cover}
+
+
+%************************************************************
+    \pagenumbering{arabic}
+
+    \clearpage{\pagestyle{empty}\cleardoublepage}
+%************************************************************
+                %   Indice generale
+    \tableofcontents
+    \clearpage{\pagestyle{empty}\cleardoublepage}
+    %\listoffigures
+%************************************************************
+                %   Capitoli
+    \input{intro}
+    \input{install}
+    \input{tools}
+	\input{examples}
+
+
+%************************************************************
+        %appendici
+
+%************************************************************
+    %Bibliografia
+    %GATHER{Bibliography.bib}
+    \addcontentsline{toc}{chapter}{Bibliography}
+    \bibliography{bibliography}
+
+%************************************************************
+
+\end{document}
+
+%************************************************************

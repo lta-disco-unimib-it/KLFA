@@ -1,0 +1,4 @@
+#!/bin/bash
+
+
+java -cp $KLFA_HOME/klfa.jar tools.kLFAEngine.LogTraceAnalyzer splitComponent training transformers.txt preprocessingRules.txt trace.txt

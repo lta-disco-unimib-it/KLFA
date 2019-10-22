@@ -1,0 +1,23 @@
+#!/bin/bash
+
+
+
+offset=27
+#rawLogPreprocessor=rawLogsPreprocessing.generic.GenericLogPreprocessor
+#rawLogPreprocessor=rawLogsPreprocessing.java.UniformLogPreprocessor
+
+#program arguments must be the training logs
+
+java -cp /home/fabrizio/Workspaces/workspaceBCT/LogFileAnalysis-FSA/bin/ preprocessing.eventsSeparation.ManyToOneLinePreprocessor $@ server.events.fail.txt
+
+
+java -cp /home/fabrizio/Workspaces/workspaceBCT/LogFileAnalysis-FSA/bin/ preprocessing.csvGeneration.slct.GenericLogToSlctPreprocessor -offset $offset server.events.fail.txt server.fail.txt
+
+
+
+#derive the final csv file
+java -cp /home/fabrizio/Workspaces/workspaceBCT/LogFileAnalysis-FSA/bin/ preprocessing.csvGeneration.slct.SlctCsvGenerator -hashOutliers finalRules.txt server.fail.txt server.fail.csv &> slctPreprocessorChecking.log
+
+#analyze parameters
+java -cp /home/fabrizio/Workspaces/workspaceBCT/LogFileAnalysis-FSA/bin/ preprocessing.parametersAnalysis.ParametersAnalyzer -actionElements 0,1 server.fail.csv parametersAnalysisChecking.txt
+

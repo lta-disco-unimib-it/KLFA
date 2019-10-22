@@ -1,0 +1,2 @@
+Component;Anomaly;Line;State;StateType;Event;Original log line;Original log event;To state;Branch length;Expected;Expected incoming
+GLOBAL;FinalState;8;q7;Existing;C_G);8;null;;0;C_H);q7)C_H);

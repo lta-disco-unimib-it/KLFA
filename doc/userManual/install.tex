@@ -1,0 +1,160 @@
+\chapter{Installing and Compiling KLFA}
+
+\section{Installing a compiled version of KLFA}
+\label{sec:installKLFA}
+
+If you received the KLFA distribution zip (something like
+klfa-201010141601.zip), just uncompress it in the location you prefer, 
+e.g. \texttt{/home/fabrizio/Pro\-grams/klfa\-201010141601}.
+  
+Once you uncompressed it you just need to do the following commands:
+
+	1) (if using Linux or OSX) make scripts executables
+		e.g. 
+		\begin{verbatim}
+		chmod a+x /home/fabrizio/Programs/klfa-201010141601/bin/*
+		\end{verbatim}
+
+	2) (for any OS) set the environment variable KLFA$\_$HOME to point to the 
+		folder where you installed klfa, e.g. 
+		\texttt{/home/fabrizio/Programs/klfa-201010141601/}
+		
+		If you are using Linux or OSX with the BASH shell you could add the 
+		following line to file \texttt{\$HOME.bashrc}:
+		
+		\begin{verbatim}
+		export KLFA_HOME=/home/fabrizio/Programs/klfa-201010141601/
+		\end{verbatim}
+
+	Change the path according to your KLFA installation path.
+	
+	3) (for any OS) add the bin folder in KLFA$\_$HOME to the PATH environment 
+		variable.
+		
+		If you are using Linux or OSX with the BASH shell you could add the 
+		following line to file .bashrc (change the path according to your path):
+		
+		\begin{verbatim}
+		export PATH=$PATH:/home/fabrizio/Programs/klfa-201010141601/bin/
+		\end{verbatim}
+		
+		
+		You can check if the previous command succeeded by running the following
+		command and checking that you have an output similar to the one 
+		reported below:
+		
+		\begin{verbatim}
+		$ which klfaCsvAnalysis.sh
+		/home/fabrizio/Programs/klfa-201010141601/bin//klfaCsvAnalysis.sh
+		\end{verbatim}
+
+
+		Check if klfa is correctly installed by running:
+		\begin{verbatim}
+		$ klfaCsvAnalysis.sh 
+		\end{verbatim}
+		
+		The command will output KLFA command help. Like in the following paragraph:
+		\begin{verbatim}
+This program builds models of the application behavior by analyzing a trace
+file. The trace file must be a collection of lines, each one in the format
+COMPONENT,EVENT[,PARAMETER]. 
+Multiple traces can be defined in a file, to
+separate a trace from another put a line with the | symbol. 
+Usage : 
+	it.unimib.disco.lta.alfa.klfa.LogTraceAnalyzer [options] <analysisType> <phase>
+		<valueTranformersConfigFile> <preprocessingRules> <traceFile>
+	\end{verbatim}
+	
+	
+KLFA includes several programs and utilities described in the following
+Sections. The most common utilities can be run by using the shell scripts in
+\texttt{KLFA$\_$HOME/bin}
+	
+We suggest to go through the examples in folder \texttt{KLFA$\_$HOME/examples}
+to understand how to use KLFA. Some examples are described in
+Chapter~\ref{ch:examples}, others are described in the file \texttt{README.txt}
+that you find in each example folder.
+
+
+
+\section{Compiling KLFA from a source distribution}
+\label{sec:compileKLFA}
+
+If you received a source distribution zip of KLFA (something like 
+klfa-src-201010141601.zip), uncompress it in the location you prefer, 
+e.g. /home/fabrizio/Programs/klfa-src\-201010141601.
+
+
+In order to compile an installable version of klfa from sources run the following
+command within the folder where you uncompressed klfa:
+\begin{verbatim}
+	ant distribution
+\end{verbatim}	
+	
+so you could do:
+\begin{verbatim}
+	cd 	/home/fabrizio/Programs/klfa-src-201010141601
+	ant distribution
+\end{verbatim}	
+	
+The command will create the KLFA distribution zip in the dist folder.
+e.g.
+\texttt{/home/fabrizio/Programs\-/klfa-src\-201010141601/dist/klfa\-201010141601.zip}
+
+After creating the distribution zip you can follow the commands described in
+Section~\ref{sec:installKlfa}.
+
+\section{Compiling KLFA from CVS}
+\label{sec:compileklfaCVS}
+
+In order to install the head version of klfa stored on the UniMiB CVS repository
+you need to download the following CVS modules:
+\begin{itemize}
+  \item LogFileAnalysis-LFA
+  \item BCT (you need to download the TPTPIntegration branch)
+\end{itemize}
+
+LogFileAnalysis-LFA is klfa. BCT
+provides the libraries to infer automata.
+
+The first step is the compilation of klfa dependencies. To do so run
+\begin{verbatim}
+ant buildDependencies
+\end{verbatim}
+
+The command will create the library \textit{bct.jar} in
+folder \textit{lib}.
+
+Next step is to run the command
+
+\begin{verbatim}
+	ant distribution
+\end{verbatim}	
+
+This command builds the klfa distribution zip. Follow the instructions described
+in Section~\ref{sec:installKLFA} to install KLFA.
+
+Other klfa ant compilation options are described by the build.xml help. To see
+the other compilation options just run
+\begin{verbatim}
+	ant
+\end{verbatim}
+
+
+
+\section{Installing SLCT}
+\label{sec:installSLCT}
+
+In order to identify event types AVA uses SLCT~\cite{VaarandiIPOM2003}. In order to install SLCT
+you need to change your current directory to \texttt{src-native/slct-0.5} and
+compile slct.
+
+If you use Linux or OsX you can run the following commands
+
+\begin{verbatim}
+cd $AVA_HOME/../src-native/slct-0.5
+gcc -o slct -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 slct.c
+sudo mkdir /opt/slct-0.5
+sudo mv slct /opt/slct-0.5
+\end{verbatim}

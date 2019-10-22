@@ -1,0 +1,1412 @@
+2) --- Begin Inference ---
+
+2) 2
+3) Parsing file /home/fabrizio/WorkspacesRSA/workspaceGUI/LogFileAnalysis-FSA/tests/unit/main/artifacts/parametersAnalysis/transformationRulesGeneratorMethodDataProcessing/models/pack.Processor.main().trace
+2) Reading trace 1
+
+2) Reading complete
+
+3) Trace Value= pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) 
+
+2) Extending current FSA...
+
+2) Initialization of the FSA
+
+3) minTrustLen=2
+
+3) trace length=17
+
+2) Initialization Complete
+3) automaton initialized = automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+
+2) Begin Searching for Behavioral Pattern...
+3) Suitable Behavioral Pattern Identified: Behavioral Pattern from position 2 to position 3 of the trace file, corresponding to submachine between state q_0 at (30,30) label: null and state q_2 at (150,30) label: null. The behavior length is 2
+2) Adding a branch to the FSA
+3) Adding Branch, actualState = q_2 at (150,30) label: null ,actualPos2
+3) Adding Lambda Transition
+2) Branch added
+3) cursors updates; new values state=q_2 at (150,30) label: null pos=4
+3) Continuing over FSA
+3) Continuation impossible
+2) Begin Searching for Behavioral Pattern...
+3) Suitable Behavioral Pattern Identified: Behavioral Pattern from position 4 to position 16 of the trace file, corresponding to submachine between state q_1 at (90,30) label: null and state q_0 at (30,30) label: null. The behavior length is 13
+2) Adding a branch to the FSA
+3) Adding Branch, actualState = q_2 at (150,30) label: null ,actualPos4
+3) Adding Lambda Transition
+2) Branch added
+3) cursors updates; new values state=q_0 at (30,30) label: null pos=17
+2) Extension performed
+
+2) FSA generated after trace 2
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 2
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 3
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 3
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 4
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 4
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 5
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 5
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 6
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 6
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 7
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 7
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 8
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 8
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 9
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 9
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 10
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 10
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 11
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 11
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 12
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 12
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 13
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 13
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 14
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 14
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 15
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 15
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 16
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 16
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 17
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 17
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 18
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 18
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 19
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 19
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 20
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 20
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 21
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 21
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 22
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 22
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 23
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 23
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 24
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 24
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 25
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 25
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 26
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 26
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 27
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 27
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 28
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 28
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 29
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 29
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 30
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 30
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 31
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 31
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 32
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 32
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 33
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 33
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 34
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 34
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 35
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 35
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 36
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 36
+
+2) Reading complete
+
+3) Trace Value= pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0) 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+3) Behavior generated up to position 17
+
+2) Extension performed
+
+2) FSA generated after trace 37
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 37
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 38
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 38
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 39
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 39
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 40
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 40
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 41
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 41
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 42
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 42
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 43
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 43
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 44
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 44
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 45
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 45
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 46
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 46
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 47
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 47
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 48
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 48
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 49
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 49
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 50
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 50
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 51
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 51
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 52
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 52
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 53
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 53
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 54
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 54
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 55
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 55
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 56
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 56
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 57
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 57
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 58
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 58
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 59
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 59
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 60
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 60
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 61
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 61
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 62
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 62
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 63
+2) automata.fsa.FiniteStateAutomaton@4f459c
+q_1 at (90,30) label: null
+	[q_1 at (90,30) label: null] -> [q_2 at (150,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+--> q_0 at (30,30) label: null **FINAL**
+	[q_0 at (30,30) label: null] -> [q_1 at (90,30) label: null]: "pack.Processor.main()_pack.Processor.process((Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)V)__0__0)"
+q_2 at (150,30) label: null
+	[q_2 at (150,30) label: null] -> [q_0 at (30,30) label: null]: ""
+	[q_2 at (150,30) label: null] -> [q_1 at (90,30) label: null]: ""
+
+2) Reading trace 63
+
+2) Reading complete
+
+3) Trace Value= 
+
+2) Extending current FSA...
+
+3) Searching for the longest already generated behavior
+
+2) Extension performed
+
+2) FSA generated after trace 64
+2) automata.fsa.FiniteStateAutomato

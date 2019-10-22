@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="it.unimib.disco.lta.eclipse.alfa.lib/lib/alfak.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/LogFileAnalysis-FSA/scripts/exportAlfaK.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="true" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="false" manifestLocation="/LogFileAnalysis-FSA/MANIFEST.MF" manifestVersion="1.0" reuseManifest="true" saveManifest="true" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <javaElement handleIdentifier="=LogFileAnalysis-FSA/src-jvmMon"/>
+        <file path="/LogFileAnalysis-FSA/log"/>
+        <folder path="/LogFileAnalysis-FSA/META-INF"/>
+        <javaElement handleIdentifier="=LogFileAnalysis-FSA/src-stide"/>
+        <file path="/LogFileAnalysis-FSA/.classpath"/>
+        <javaElement handleIdentifier="=LogFileAnalysis-FSA/tests\/unit\/main\/src"/>
+        <javaElement handleIdentifier="=LogFileAnalysis-FSA/src-bct-porting"/>
+        <javaElement handleIdentifier="=LogFileAnalysis-FSA/src-iai"/>
+        <javaElement handleIdentifier="=LogFileAnalysis-FSA/src-javalogs"/>
+        <file path="/LogFileAnalysis-FSA/.cvsignore"/>
+        <file path="/LogFileAnalysis-FSA/.project"/>
+        <javaElement handleIdentifier="=LogFileAnalysis-FSA/src"/>
+        <file path="/LogFileAnalysis-FSA/MANIFEST.MF"/>
+        <file path="/LogFileAnalysis-FSA/.#.classpath.1.10"/>
+        <javaElement handleIdentifier="=LogFileAnalysis-FSA/src-nettech"/>
+        <file path="/LogFileAnalysis-FSA/.#.classpath.1.12"/>
+    </selectedElements>
+</jardesc>

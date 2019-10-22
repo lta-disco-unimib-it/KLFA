@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="help" name="Create Runnable Jar for Project LogFileAnalysis-FSA">
+    <!--ANT 1.7+ is required                                        -->
+    
+	<tstamp>
+		     <format property="BUILD_STAMP" pattern="yyyyMMddHHmm" />
+		   </tstamp>
+	
+	<property name="bctLib" value="lib/bct.jar" />
+	<property name="bin" value="bin" />
+		
+	
+	<property name="manualFolder" value="doc/userManual" />
+	<property name="pathToTmpManualPDF" value="${manualFolder}/klfaUserManual.pdf" />
+	<property name="pathToManualPDF" value="${manualFolder}/klfaUserManual-${BUILD_STAMP}.pdf" />
+	<property name="mainManualSource" value="klfaUserManual.tex" />
+	
+	<property name="ant.build.javac.target" value="1.7" />
+	
+	<property name="buildClasspath" value="${bctLib}" />
+	<property name="klfa-lib" value="klfa-lib.jar" />
+	<property name="klfa-standalone" value="klfa-standalone.jar" />
+	<property name="version.num" value="0.1"/>
+	<property name="klfaSrcTmpFolder" value="klfa-src-${BUILD_STAMP}" />
+	<property name="klfaTmpFolder" value="klfa-${BUILD_STAMP}" />
+	<property name="klfaSrcZip" value="klfa-src-${BUILD_STAMP}.zip" />
+	<property name="klfaZip" value="klfa-${BUILD_STAMP}.zip" />
+	<property name="bctDir" value="../BCT" />
+	
+	<target name="deploy" depends="distribution">
+		<ant antfile="deploy.xml" inheritall="true" />
+		
+	</target>
+	
+	<target name="deploySite" depends="buildSite">
+	<echo>Deploying web site</echo>
+		<exec executable="scp" dir=".">
+			<arg value="-r"/>
+			<arg value="doc/site/target/"/>
+			<arg value="root@www.lta.disco.unimib.it:/home/www/tools/klfa/"/>
+		</exec>
+			
+	</target>
+	
+	<target name="buildSite" depends="init">
+			<exec command="mvn" dir="doc/site/" >
+				<arg value="clean"/>
+				<arg value="site"/>
+		</exec>
+	</target>
+	
+	<target name="buildDependencies" depends="init">
+		<echo>Building dependencies</echo>
+			<ant dir="${bctDir}" target="libCore" inheritAll="false" />
+			<copy file="${bctDir}/dist/bct-core.jar" toFile="${bctLib}" />		
+	</target>
+	
+	  <target name="clean">
+	  	<delete dir="dist" />
+	       <delete includeemptydirs="true">
+	         <fileset dir="bin" excludes="CVS/*" includes="**/*"/>
+	       </delete>  
+	  </target>
+
+
+	<target name="help" >
+				<echo>Possible targets:</echo>
+				<echo>buildDependencies : compile all the dependencies (BCT-CORE) and put the jars in the "lib" folder</echo>
+				<echo>clean : clean the project by deleting all the files generated in previous builds</echo>
+				<echo>lib : compiles a jar that contains all the KLFA classes</echo>
+				<echo>standalone : compiles a jar that contains KLFA classes and all its dependencies</echo>
+				<echo>distribution: creates a zip containing source code and compiled version of KLFA with examples</echo>
+		</target>
+	
+	<target name="init">
+		<mkdir dir="bin" />
+		<mkdir dir="dist" />
+		<mkdir dir="dist/bin" />
+		
+		<copy todir="dist/bin">
+			<fileset dir="scripts/bin" includes="**/*"/>
+		</copy>
+		
+		<chmod dir="dist/bin" perm="a+rwx" includes="*" />
+		
+	</target>
+	
+	<target name="build" depends="init" >
+		<!-- <buildnumber file="build.num"/> -->
+		<javac destdir="${bin}" classpath="${buildClasspath}" debug="true" debuglevel="lines,source">
+			
+			<src path="src" />
+			<src path="src-javalogs" />
+			<src path="src-opencsv"/>
+		</javac>
+	</target>
+	
+	<target name="lib" depends="build">
+	        <jar destfile="dist/${klfa-lib}" filesetmanifest="mergewithoutmain">
+	            <manifest>
+	                <attribute name="Main-Class" value="tools.kLFAEngine.LogTraceAnalyzer"/>
+	                <attribute name="Class-Path" value="."/>
+	            </manifest>
+	            <fileset dir="bin"/>
+	        	
+	        </jar>
+	    </target>
+	
+	
+	<target name="buildManual" depends="init">
+		<exec executable="pdflatex" dir="${manualFolder}">
+		<arg value="${mainManualSource}"/>
+	
+		</exec>
+		
+		<exec executable="pdflatex" dir="${manualFolder}">
+				<arg value="${mainManualSource}"/>
+			
+		</exec>
+		
+		<move file="${pathToTmpManualPDF}" tofile="${pathToManualPDF}" />
+		
+	</target>
+	
+	<target name="distribution" depends="sourcedist,standalone,buildManual">
+		<mkdir dir="dist/${klfaTmpFolder}"/>
+		
+		<move todir="dist/${klfaTmpFolder}" >
+			<fileset dir="dist" includes="klfa-*"/>
+			<fileset dir="dist" includes="klfa-*/**/*"/>
+			<fileset dir="dist" includes="bin/**/*" />
+		</move>	
+		
+		<copy todir="dist/${klfaTmpFolder}" >
+			<fileset dir="." includes="examples/**"/>
+		</copy>
+		
+		<copy todir="dist/${klfaTmpFolder}" >
+			<fileset dir="." includes="*.txt"/>
+		</copy>
+		
+		<copy todir="dist/${klfaTmpFolder}" file="${pathToManualPDF}" />
+		
+		<zip destfile="dist/${klfaZip}" >
+			<fileset dir="dist" includes="${klfaTmpFolder}/**/*" />				
+		</zip>
+		
+	</target>
+	
+	
+	<target name="standalone" depends="init,build">
+		
+		
+		
+        <jar destfile="dist/${klfa-standalone}" filesetmanifest="mergewithoutmain">
+        	
+                   	
+            <manifest >
+                <attribute name="Main-Class" value="tools.kLFAEngine.LogTraceAnalyzer"/>
+                <attribute name="Class-Path" value="."/>
+            	<attribute name="Built-Date" value="${BUILD_STAMP}"/> 
+            	<attribute name="Implementation-Version" 
+            	                            value="${version.num}-b${build.number}"/> 
+            </manifest>
+            <fileset dir="bin"/>
+        	<!-- 
+        		<fileset dir="../BCT/bin"/> 
+        	-->
+            
+        	
+        	
+            <zipfileset excludes="META-INF/*.SF" src="${bctLib}" />
+        </jar>
+    </target>
+	
+	<target name="sourcedist" depends="init">
+		<copy todir="dist/${klfaSrcTmpFolder}" >	
+	            
+	            <fileset dir="." includes="doc/**/*"/>
+	        	<fileset dir="." includes="src/**/*"/>
+	            <fileset dir="." includes="
+
+	            	**"/>
+	            	
+	        	<fileset dir="." includes="src-javalogs/**"/>
+	        	<fileset dir="." includes="src-opencsv/**"/>
+	        	<fileset dir="." includes="tests/**"/>	        	
+	        	<fileset dir="." includes="scripts/**"/>
+	        	<fileset dir="." includes="lib/**"/>
+	        	<!-- 
+	        		<fileset dir="../BCT/bin"/> 
+	        	-->
+	            
+	        	<fileset dir="." includes="*txt" />
+	        	<fileset dir="." includes="*xml" />	
+	        </copy>
+		
+		<zip destfile="dist/${klfaSrcZip}" >
+			<fileset dir="dist" includes="${klfaSrcTmpFolder}/**/*" />				
+		</zip>
+		
+		<delete dir="dist/${klfaSrcTmpFolder}" />
+		
+	    </target>
+	
+</project>

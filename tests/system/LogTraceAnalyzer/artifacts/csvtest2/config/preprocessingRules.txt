@@ -1,0 +1,3 @@
+"C b.*","action B.*",0:SAME,1:SAME,2:ATTRB
+"C a.*","action A.*",0:SAME,1:SAME,2:ATTRA
+"C a.*","action H.*",0:SAME,1:SAME,2:ATTRH

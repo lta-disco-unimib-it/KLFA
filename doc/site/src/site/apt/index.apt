@@ -1,0 +1,35 @@
+ -----
+ KLFA
+ -----
+ University of Milano Bicocca - Laboratory of Software Testing and Analysis (LTA)
+ -----
+
+KLFA
+
+	Log files are commonly inspected by system administrators and developers to detect suspicious behaviors and diagnose 
+	failure causes. Since size of log files grows fast, thus making manual analysis impractical, different automatic 
+	techniques have been proposed to analyze log files. Unfortunately, accuracy and effectiveness of these techniques 
+	are often limited by the unstructured nature of logged messages and the variety of data that can be logged.
+	
+	KLFA is a tool that automatically analyzes log files and retrieves important information to identify failure causes. 
+	KLFA automatically identifies dependencies between events and values in logs corresponding to legal 
+	executions, generates models of legal behaviors and compares log files collected during failing executions with 
+	the generated models to detect anomalous event sequences that are presented to users. 
+	
+	Experimental results show the effectiveness of the technique in supporting developers and testers to identify failure causes.
+	 
+	KLFA has been described in the following papers:
+
++-----+
+
+L. Mariani, F. Pastore. Automated Identification of Failure Causes in System Logs.
+Proceedings of the 19th IEEE International Symposium on Software Reliability Engineering (ISSRE'08), IEEE Computer Society, 2008, 117 - 126
+
++-----+
+
++-----+
+
+D. Cotroneo, R. Pietrantuono, L. Mariani, F. Pastore. Investigation of failure causes in workload-driven reliability testing.
+Fourth international workshop on Software quality assurance (SOQUA'07), ACM, 2007, 78-85
+
++-----+

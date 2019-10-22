@@ -1,0 +1,10 @@
+0,user logout,0:COMPONENT,1:EVENT,2:USER,3:IP
+0,user profile modified,0:COMPONENT,1:EVENT,2:USER,3:IP
+0,user modify profile,0:COMPONENT,1:EVENT,2:USER,3:IP
+0,user logged in,0:COMPONENT,1:EVENT,2:USER,3:IP
+0,user login request for,0:COMPONENT,1:EVENT,2:USER,3:IP
+0,page request from,0:COMPONENT,1:EVENT,2:IP
+0,Server Started,0:COMPONENT,1:EVENT
+0,Starting server on port,0:COMPONENT,1:EVENT,3:PORT,2:SERVER_IP
+0,Server start,0:COMPONENT,1:EVENT,2:SERVER_IP
+.*,.*,0:COMPONENT,1:EVENT

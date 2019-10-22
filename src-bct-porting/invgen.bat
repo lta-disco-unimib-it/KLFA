@@ -1,0 +1,1 @@
+java -Xmx512m -cp bin/ tools.InvariantGenerator %1 %2 %3 %4 %5 %6 %7 %8 %9

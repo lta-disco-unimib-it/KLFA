@@ -1,0 +1,5 @@
+This example shows how KLFA can infer action level analysis models.
+
+run training to infer the model
+run checking to identify anomalies
+

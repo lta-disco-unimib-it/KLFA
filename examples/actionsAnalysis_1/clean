@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+rm -r klfaOutput
+
+#rm *.trace
+#rm *.log
+#rm *.fsa
+#rm *.trans
+#
+#rm anomalies.txt

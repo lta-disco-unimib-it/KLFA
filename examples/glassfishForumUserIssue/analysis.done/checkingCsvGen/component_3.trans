@@ -1,0 +1,7 @@
+ADM0001 SunoneInterceptor is now enabled : 7
+ADM1079 Initialization of AMX MBeans started : 11
+ADM1504 Here is the JMXServiceURL for the Standard JMXConnectorServer . This is where the remote administrative clients should connect using the standard JMX connectors : 12
+ADM1506 Status of Standard JMX Connector Active true  : 13
+ADM5603 Event listener error java.lang.RuntimeException javax.naming.NameNotFoundException  : 27
+ADM1075 Error on listening event java.lang.RuntimeException javax.naming.NameNotFoundException  : 28
+ \n|\n : -1

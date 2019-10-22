@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+rm  analysisResult.txt  preprocessingRules.txt  transformersConfig.txt analysisStatistics.csv
+

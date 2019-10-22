@@ -1,0 +1,1 @@
+This folder contains the concrete case study described in KLFA documentation.

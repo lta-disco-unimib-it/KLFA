@@ -1,0 +1,7 @@
+*.toc
+*.out
+*.idx
+*.bbl
+*.blg
+*.aux
+klfaUserManual*.pdf

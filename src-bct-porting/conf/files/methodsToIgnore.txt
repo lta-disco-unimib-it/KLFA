@@ -1,0 +1,4 @@
+org.apache.tomcat.util.net.JIoEndpoint$Acceptor.run(()V)=true
+org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(()V)=true
+org.apache.tomcat.util.threads.ThreadPool$MonitorRunnable.run(()V)=true
+org.apache.tomcat.util.net.JIoEndpoint$Worker.run(()V)=true

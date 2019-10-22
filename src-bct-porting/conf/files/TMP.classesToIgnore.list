@@ -1,0 +1,4 @@
+#Classes to ignore list
+#Wed Sep 01 11:00:39 CEST 2004
+java.lang.Class=true
+java.lang.ClassLoader=false

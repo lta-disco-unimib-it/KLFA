@@ -1,0 +1,4 @@
+#Plugins list (Lorenzoli-ObjectFlattener configuration file)
+#Wed Sep 01 11:00:39 CEST 2004
+flattener.plugins.VectorPlugin=true
+flattener.plugins.HashtablePlugin=true

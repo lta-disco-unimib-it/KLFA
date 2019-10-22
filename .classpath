@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="tests/utils/src"/>
+	<classpathentry kind="src" path="tests/bugs/src"/>
+	<classpathentry kind="src" path="tests/unit/src"/>
+	<classpathentry kind="src" path="tests/system/LogTraceAnalyzer/src"/>
+	<classpathentry kind="src" path="tests/unit/main/src"/>
+	<classpathentry kind="src" path="src-javalogs"/>
+	<classpathentry kind="src" path="src-opencsv"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="lib/bct.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

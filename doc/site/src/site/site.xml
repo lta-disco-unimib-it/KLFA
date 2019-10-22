@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<project name="Maven" xmlns="http://maven.apache.org/DECORATION/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/DECORATION/1.0.0 http://maven.apache.org/xsd/decoration-1.0.0.xsd">
+<!-- 
+  <bannerLeft>
+    <name>Maven</name>
+    <src>http://maven.apache.org/images/apache-maven-project.png</src>
+    <href>http://maven.apache.org/</href>
+  </bannerLeft>
+  <bannerRight>
+    <src>http://maven.apache.org/images/maven-small.gif</src>
+  </bannerRight>
+ -->
+ 
+  <body>
+    <links>
+      <item name="Tools" href="http://www.lta.disco.unimib.it/tools/" />
+      <item name="LTA" href="http://www.lta.disco.unimib.it/" />
+      <item name="UniMiB" href="http://www.disco.unimib.it/"/>
+    </links>
+
+    <menu name="KLFA">
+      <item name="Overview" href="index.html"/>
+      <item name="Documentation" href="documentation.html"/>
+      <item name="Downloads" href="downloads.html"/>
+      <item name="People" href="people.html"/>
+    </menu>
+  </body>
+</project>

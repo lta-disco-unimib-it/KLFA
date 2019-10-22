@@ -1,0 +1,22 @@
+0,Server start,10.0.0.1
+0,Starting server on port,10.0.0.1,5432
+0,Server Started
+0,page request from,10.0.1.5
+0,user login request for,Leonardo,10.0.1.5
+0,user logged in,Leonardo,10.0.1.5
+0,user modify profile,Leonardo,10.0.1.5
+0,user profile modified,Leonardo,10.0.1.5
+0,user logout,Leonardo,10.0.1.5
+0,page request from,10.0.1.8
+0,user login request for,Davide,10.0.1.8
+0,user logged in,Davide,10.0.1.8
+0,user modify profile,Davide,10.0.1.8
+0,user profile modified,Davide,10.0.1.8
+0,user logout,Davide,10.0.1.8
+0,page request from,10.0.1.9
+0,user login request for,Mauro,10.0.1.9
+0,user logged in,Mauro,10.0.1.9
+0,user modify profile,Mauro,10.0.1.9
+0,user profile modified,Mauro,10.0.1.9
+0,user logout,Mauro,10.0.1.9
+0,shutdown

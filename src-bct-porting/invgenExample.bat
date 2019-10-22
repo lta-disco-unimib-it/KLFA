@@ -1,0 +1,1 @@
+java -cp . tools.InvariantGenerator -logs C:/Programmi/eclipse/workspace/BCT/examples/script/ -dest ../examples/invariants/ -cp . foo.FooApplication

@@ -1,0 +1,3 @@
+java -cp $KLFA_HOME/klfa.jar preprocessing.csvGeneration.slct.SlctComponentCsvGenerator -componentExpression "(.*)\|.*" -dataExpression ".*\|(.*)" -exportRules rules.properties $1 correct.csv
+
+java -cp $KLFA_HOME/klfa.jar preprocessing.parametersAnalysis.ParametersAnalyzer -patterns slctPatterns.properties -actionElements 0,1 correct.csv parametersAnalysis.txt

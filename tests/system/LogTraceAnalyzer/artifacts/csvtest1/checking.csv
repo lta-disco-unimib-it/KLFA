@@ -1,0 +1,18 @@
+C,A
+C,B
+C,"C"
+C,D
+C,E
+C,F
+C,G
+C,H
+C,"C C"
+C,"C D",1
+C,"action name",1,second
+C,"action , name",1,"second parameter"
+C,an action without quotes,1,"second parameter"
+C,"another action name",1,"second parameter","parameter with escaped \"",2
+"component name","action2 name","parameter one",5
+"component \" name","action \" name","parameter one",5
+"component \" name","action \" name, ",",parameter one",5
+C,A
