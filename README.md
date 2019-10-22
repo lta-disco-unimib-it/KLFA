@@ -8,7 +8,7 @@ Leonardo Mariani, and Fabrizio Pastore. Automated Identification of Failure Caus
 
 To use KLFA please read the following files first:
 
-INSTALL.txt contains installation instructions
-COPYRIGHT.txt contains information about KLFA License
-COPYRIGHT.JFLAP.txt contains JFLAP License
-examples/README.txt contains a description of the example files provided with the tool
+* INSTALL.txt contains installation instructions
+* COPYRIGHT.txt contains information about KLFA License
+* COPYRIGHT.JFLAP.txt contains JFLAP License
+* examples/README.txt contains a description of the example files provided with the tool
